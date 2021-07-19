@@ -1,10 +1,12 @@
 import React from 'react'
-import NavbarStem from '../Components/NavbarStem'
+import NavaBarStem from '../Components/NavaBarStem'
+import Slider from '../Components/Slider'
 
 const App = () => {
     return (
         <div>
-            <NavbarStem />
+            <NavaBarStem />
+            <Slider />
         </div>
     )
 }
