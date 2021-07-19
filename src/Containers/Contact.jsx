@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+export const Contact = () => {
     return (
         <div>
             <h1>Contacto</h1>
@@ -8,4 +8,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+

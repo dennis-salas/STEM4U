@@ -8,3 +8,8 @@
 .Navbar{
     background-color: #D7BDE2;
 }
+.baner-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
