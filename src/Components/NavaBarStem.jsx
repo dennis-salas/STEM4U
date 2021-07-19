@@ -8,7 +8,7 @@ const NavaBarStem = () => {
             <Navbar>
                 <Container>
                     <Navbar.Brand >
-                        <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" />
+                        <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" roundedCircle/>
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Link className="nav-link" to="/">Inicio</Link>
