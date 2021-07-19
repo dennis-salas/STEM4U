@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const NavaBarStem = () => {
     return (
         <div>
-            <Navbar bg="light" variant="light">
+            <Navbar>
                 <Container>
                     <Navbar.Brand >
                         <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" />
