@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Container, Nav, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const NavaBarStem = () => {
+const NavBarStem = () => {
     return (
         <div>
             <Navbar>
@@ -23,4 +23,4 @@ const NavaBarStem = () => {
     )
 }
 
-export default NavaBarStem
+export default NavBarStem;

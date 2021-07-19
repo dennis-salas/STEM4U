@@ -4,7 +4,7 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-import NavaBarStem from '../Components/NavaBarStem';
+import NavBarStem from '../Components/NavBarStem';
 import App from '../Containers/App';
 import { Publications } from '../Containers/Publications';
 import { Services } from '../Containers/Services'
@@ -14,7 +14,7 @@ import { Contact } from '../Containers/Contact';
 const AppRouter = () => {
     return (
         <Router>
-            <NavaBarStem />
+            <NavBarStem />
             <Switch>
                 <Route exact path="/" component={App} />
                 <Route exact path="/Publications" component={Publications} />
