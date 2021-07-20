@@ -14,10 +14,10 @@ const Slider = () => {
                     <Carousel.Caption>
                         <h3>Para ti</h3>
                         <p>Si tu interes son las areas STEM aqui incuentras información </p>
-                        
+
                     </Carousel.Caption>
                 </Carousel.Item>
-                
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
