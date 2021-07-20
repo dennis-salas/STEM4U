@@ -2,13 +2,13 @@ import React from 'react'
 import { Navbar, Container, Nav, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const NavaBarStem = () => {
+const NavBarStem = () => {
     return (
         <div>
             <Navbar>
                 <Container>
                     <Navbar.Brand >
-                        <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" />
+                        <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" roundedCircle/>
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Link className="nav-link" to="/">Inicio</Link>
@@ -23,4 +23,4 @@ const NavaBarStem = () => {
     )
 }
 
-export default NavaBarStem
+export default NavBarStem;
