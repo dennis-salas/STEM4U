@@ -5,7 +5,7 @@ const Slider = () => {
     return (
         <div>
             <Carousel fade>
-            <Carousel.Item>
+                <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
                         src="images\Logo_proyecto.jpg"
@@ -17,9 +17,6 @@ const Slider = () => {
 
                     </Carousel.Caption>
                 </Carousel.Item>
-<<<<<<< HEAD
-
-=======
                 <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
@@ -32,8 +29,7 @@ const Slider = () => {
                         <h3>Emmy Noether</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
-                
->>>>>>> 10d01d77b5147085fce3f0916a0c0634a811c97d
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
