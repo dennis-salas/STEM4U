@@ -12,7 +12,7 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Para ti</h3>
+                        <h3>Para tii</h3>
                         <p>Si tu interes son las areas STEM aqui incuentras información </p>
                         
                     </Carousel.Caption>
