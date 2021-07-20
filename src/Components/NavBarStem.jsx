@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Container, Nav, Image } from 'react-bootstrap'
+import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const NavBarStem = () => {
@@ -16,6 +16,10 @@ const NavBarStem = () => {
                         <Link className="nav-link" to="/Services">Servicios</Link>
                         <Link className="nav-link" to="/Stories">Historias</Link>
                         <Link className="nav-link" to="/Contact">Contacto</Link>
+                        <Link className="nav-link"> 
+                        <Button className="btn-register"> Crear cuenta</Button>
+                        <Button className="btn-login"> Acceder</Button>
+                        </Link>
                     </Nav>
                 </Container>
             </Navbar>
