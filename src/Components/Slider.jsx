@@ -5,19 +5,35 @@ const Slider = () => {
     return (
         <div>
             <Carousel fade>
-                <Carousel.Item>
+            <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
                         src="images\Logo_proyecto.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Para ti</h3>
+                        <h3>Para tii</h3>
                         <p>Si tu interes son las areas STEM aqui incuentras información </p>
 
                     </Carousel.Caption>
                 </Carousel.Item>
+<<<<<<< HEAD
 
+=======
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100 baner-img"
+                        src="https://i.ibb.co/gFFXWF7/Matem-tic.jpg"
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Mujeres en la Matemática</h3>
+                        <p>He hecho muchas aventuras, desde rafting en aguas bravas hasta bungee jumping. Pero creo que lo más intrépido fue ser sede de los Premios Emmy. Fue abrumador, y definitivamente tuve que dejar el miedo en la puerta. </p>
+                        <h3>Emmy Noether</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                
+>>>>>>> 10d01d77b5147085fce3f0916a0c0634a811c97d
                 <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
