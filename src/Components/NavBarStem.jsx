@@ -17,7 +17,7 @@ const NavBarStem = () => {
                         <Link className="nav-link" to="/Stories">Historias</Link>
                         <Link className="nav-link" to="/Contact">Contacto</Link>
                         <Link className="nav-link"> 
-                        <Button className="btn-register"> Crear cuenta</Button>
+                        <Button className="btn-register me-3"> Crear cuenta</Button>
                         <Button className="btn-login"> Acceder</Button>
                         </Link>
                     </Nav>
