@@ -10,6 +10,8 @@ import { Publications } from '../Containers/Publications';
 import { Services } from '../Containers/Services'
 import { Stories } from '../Containers/Stories';
 import { Contact } from '../Containers/Contact';
+import Login from '../Components/Login';
+import Register from '../Components/Register';
 
 const AppRouter = () => {
     return (
@@ -21,6 +23,8 @@ const AppRouter = () => {
                 <Route exact path="/Services" component={Services} />
                 <Route exact path="/Stories" component={Stories} />
                 <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/Login" component={Login} />
+                <Route exact path="/Register" component={Register} />
             </Switch>
         </Router>
     )

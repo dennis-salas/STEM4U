@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
+
 const NavBarStem = () => {
     return (
         <div>
@@ -16,8 +17,11 @@ const NavBarStem = () => {
                         <Link className="nav-link" to="/Services">Servicios</Link>
                         <Link className="nav-link" to="/Stories">Historias</Link>
                         <Link className="nav-link" to="/Contact">Contacto</Link>
-                        <Link className="nav-link"> 
-                        <Button className="btn-register me-3"> Crear cuenta</Button>
+                        <Link className="nav-link" to="/Register">
+                        <Button className="btn-register me-3">
+                             Crear cuenta</Button>
+                        </Link>
+                        <Link className="nav-link" to="/Login">
                         <Button className="btn-login"> Acceder</Button>
                         </Link>
                     </Nav>
