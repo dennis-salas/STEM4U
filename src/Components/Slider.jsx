@@ -5,16 +5,16 @@ const Slider = () => {
     return (
         <div>
             <Carousel fade>
-            <Carousel.Item>
+                <Carousel.Item>
                     <img
-                        className="d-block w-100 baner-img"
-                        src="images\Logo_proyecto.jpg"
+                        className="d-block w-100 logo-banner"
+                        src="https://i.ibb.co/DY46MC2/Logo-proyecto.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Para tii</h3>
-                        <p>Si tu interes son las areas STEM aqui incuentras información </p>
-                        
+                        <h3>Para ti</h3>
+                        <p className="text-slider">Si tu interes son las areas STEM aqui incuentras información </p>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -25,11 +25,11 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
                         <h3>Mujeres en la Matemática</h3>
-                        <p>He hecho muchas aventuras, desde rafting en aguas bravas hasta bungee jumping. Pero creo que lo más intrépido fue ser sede de los Premios Emmy. Fue abrumador, y definitivamente tuve que dejar el miedo en la puerta. </p>
+                        <p className="text-slider">He hecho muchas aventuras, desde rafting en aguas bravas hasta bungee jumping. Pero creo que lo más intrépido fue ser sede de los Premios Emmy. Fue abrumador, y definitivamente tuve que dejar el miedo en la puerta. </p>
                         <h3>Emmy Noether</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
-                
+
                 <Carousel.Item>
                     <img
                         className="d-block w-100 baner-img"
@@ -38,7 +38,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
                         <h3>Mujeres en Ciencias</h3>
-                        <p>Llegará un momento en que la sociedad dejará atrás los estereotipos sobre nosotras</p>
+                        <p className="text-slider">Llegará un momento en que la sociedad dejará atrás los estereotipos sobre nosotras</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -49,7 +49,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
                         <h3>Mujeres en Tecnología</h3>
-                        <p>No estás sola! Siéntete parte de una gran comunidad de las mujeres en tecnología del mundo. Juntas superaremos todos los desafíos que vengan.</p>
+                        <p className="text-slider">No estás sola! Siéntete parte de una gran comunidad de las mujeres en tecnología del mundo. Juntas superaremos todos los desafíos que vengan.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -60,7 +60,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
                         <h3>Mujeres en Ingenieria </h3>
-                        <p>Nunca tendré miedo de exponer mis ideas, por más disparatadas que suenen</p>
+                        <p className="text-slider">Nunca tendré miedo de exponer mis ideas, por más disparatadas que suenen</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
