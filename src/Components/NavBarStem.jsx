@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Container, Nav, Image, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
+
 const NavBarStem = () => {
     return (
         <div>
@@ -13,6 +14,7 @@ const NavBarStem = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
+<<<<<<< HEAD
                             <Link className="nav-link" to="/">Inicio</Link>
                             <Link className="nav-link" to="/Publications">Publicaciones</Link>
                             <Link className="nav-link" to="/Services">Servicios</Link>
@@ -24,6 +26,20 @@ const NavBarStem = () => {
                             <Link className="nav-link">
                                 <Button className="btn-login btn">INICIAR SESIÓN</Button>
                             </Link>
+=======
+                        <Link className="nav-link" to="/">Inicio</Link>
+                        <Link className="nav-link" to="/Publications">Publicaciones</Link>
+                        <Link className="nav-link" to="/Services">Servicios</Link>
+                        <Link className="nav-link" to="/Stories">Historias</Link>
+                        <Link className="nav-link" to="/Contact">Contacto</Link>
+                        <Link className="nav-link" to="/Register">
+                        <Button className="btn-register me-3">
+                             Crear cuenta</Button>
+                        </Link>
+                        <Link className="nav-link" to="/Login">
+                        <Button className="btn-login"> Acceder</Button>
+                        </Link>
+>>>>>>> 3c3c74524a5a438324392ec5635703a7ab40e3dd
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
