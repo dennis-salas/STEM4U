@@ -19,10 +19,10 @@ const NavBarStem = () => {
                             <Link className="nav-link" to="/Stories">Historias</Link>
                             <Link className="nav-link" to="/Contact">Contacto</Link>
                             <Link className="nav-link">
-                                <Button className="btn-register me-3 btn"> Crear cuenta</Button>
+                                <Button className="btn-register me-3 btn">REGISTRASE</Button>
                             </Link>
                             <Link className="nav-link">
-                                <Button className="btn-login btn"> Acceder</Button>
+                                <Button className="btn-login btn">INICIAR SESIÓN</Button>
                             </Link>
                         </Nav>
                     </Navbar.Collapse>

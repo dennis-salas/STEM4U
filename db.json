@@ -1,0 +1,148 @@
+{
+    "category" : [
+        {
+            "name": "History",
+            "section": "Mujeres STEM de la Historia"
+
+        },
+        {
+            "name": "Current",
+            "section": "Mujeres STEM de la Actualidad"
+        }
+    ],
+    "History": [
+        {
+            "id": "history-1",
+            "name": "Ada Lovelace",
+            "image": "https://i.ibb.co/0GGGb6x/ada-Lovace.jpg",
+            "contribution":"Un siglo antes que empezara la era de las computadoras, Ada Lovelace se imaginó cómo sería esa máquina que en la actualidad es de uso general. En 1843, Lovelace escribió que el aparato podría programarse para seguir instrucciones. No solo podría realizar cálculos, sino que también tendría la capacidad de crear, ya que “teje patrones algebraicos justo como el telar de Jacquard teje flores y hojas”. La computadora sobre la que escribía, la máquina analítica o máquina diferencial del inventor británico Charles Babbage, nunca se construyó, pero sus escritos sobre computación han provocado que Lovelace —quien murió de cáncer de útero en 1852, a los 36 años— se haya ganado el reconocimiento de ser la primera persona en programar computadoras."
+        },
+        {
+            "id": "history-2",
+            "name": "Marie Curie",
+            "image": "https://i.ibb.co/YLXrz7t/marie-Curie.jpg",
+            "contribution":"El 10 de diciembre de 1911, Marie Curie recibía el premio Nobel de química por “los servicios para el desarrollo de la química mediante el descubrimiento de los elementos radio y polonio”. Fue la primera mujer en recibir un premio Nobel y la primera persona en recibir dos (ella, Pierre Curie y Henri Becquerel habían compartido el premio de física de 1903 por su trabajo sobre la radiación). El impacto de Marie en el mundo científico, y en el papel de las mujeres en él, fue de tal magnitud que uno de los cuatro objetivos del Año Internacional de la Química 2011 (IYC2011) fue celebrar el centenario de su premio. "
+        },
+        {
+            "id": "history-3",
+            "name": "Emmy Noether",
+            "image": "https://i.ibb.co/2hn5mWT/emmy-Noether.jpg",
+            "contribution":"Fue una matemática alemana, de ascendencia judía,​ especialista en la teoría de invariantes​ y conocida por sus contribuciones de fundamental importancia en los campos de la física teórica y el álgebra abstracta. Considerada por David Hilbert, Albert Einstein y otros personajes como la mujer más importante en la historia de la matemática, revolucionó la teoría de anillos, teoría de cuerpos y la de K-álgebras. En física, el teorema de Noether explica la conexión fundamental entre la simetría en física y las leyes de conservación.​ A pesar de ello, se le negó la posibilidad de un puesto digno en la universidad por el hecho de ser mujer."
+        },
+        {
+            "id": "history-4",
+            "name": "Ellen Swallow Richards",
+            "image": "https://i.ibb.co/M5j93t8/ellen-Richard.jpg",
+            "contribution":"Fue una química y ecóloga americana pionera de la actual ingeniería medio ambiental. Fue una de las fundadoras de la higiene ambiental,  fase previa de la ecología moderna, y es denominada la madre de la ingeniería ambiental por sus estudios sobre la calidad de las aguas en Massachusetts en 1870 desarrollando métodos que se utilizan aún en la actualidad."
+        },
+        {
+            "id": "history-5",
+            "name":"Hedy Lamarr",
+            "image": "https://i.ibb.co/DC5Lwj0/hedy-Lamarr.jpg",
+            "contribution":"Fue una actriz de cine e inventora austriaca. Fue co-inventora junto a George Antheil de la primera versión del espectro ensanchado que permitiría las comunicaciones inalámbricas de largas distancias.Al comienzo de la Segunda Guerra Mundial, ella y el compositor George Antheil desarrollaron la patente de un sistema de guía por radio para torpedos aliados que utilizaba el espectro ensanchado y la tecnología de salto de frecuencia para vencer la amenaza de interferencias por parte de las potencias del Eje. Aunque la Armada de los Estados Unidos no adoptó la tecnología hasta la década de 1960, los principios de su trabajo se unieron a la tecnología Bluetooth y son similares a los métodos utilizados en las versiones heredadas de Wi-Fi. Este trabajo llevó a su incorporación al National Inventors Hall of Fame en 2014."
+        },
+        {
+            "id": "history-6",
+            "name":"Lise Meitner",
+            "image": "https://i.ibb.co/Nyz35m6/lise-Meitner.jpg",
+            "contribution":"La mujer menuda que consiguió escapar de los nazis. La física responsable de la fisión nuclear. La madre judía de la bomba atómica y, al mismo tiempo, la única científica que no quiso colaborar en el proyecto Manhattan. Lise Meitner fue toda una celebridad después de la Segunda Guerra Mundial, una heroína a la altura de Eleanor Roosevelt. Y, sin embargo, a día de hoy apenas se la conoce. En la literatura general su trabajo pionero en la fisión nuclear es escasamente mencionado y, cuando su nombre aparece, únicamente se habla de su contribución a la física nuclear y solo de manera marginal."
+        },
+        {
+            "id": "history-7",
+            "name":"Émilie du Châtelet",
+            "image": "https://i.ibb.co/tzwSYtq/madame-De-Chatelet.jpg",
+            "contribution":"Dama francesa que tradujo los Principia de Newton y divulgó los conceptos del cálculo diferencial e integral en su libro Las instituciones de la física, obra en tres volúmenes publicada en 1740."
+        },
+        {
+            "id": "history-8",
+            "name":"Pilar Careaga Basabe",
+            "image": "https://i.ibb.co/wC5zt6w/pilar-Careaga.jpg",
+            "contribution":"Pilar Careaga estudió Ingeniería Industrial en la Escuela Superior de Ingenieros Industriales de Madrid. Ingresó en la citada Escuela tras haber cursado estudios de aparejador, que le sirvieron para convalidar el primer año en el curso 1922-1923. Obtuvo el título de Ingeniero en 1929 y fue la primera mujer que lo consiguió en España. En el último año de sus estudios, el curso 1928-1929, cursó la asignatura de Ferrocarriles, en la que realizó prácticas como maquinista de tren, convirtiéndose también en la primera mujer que condujo un tren en España."
+        },
+        {
+            "id": "history-9",
+            "name": "Margaret Hamiltom",
+            "image": "https://i.ibb.co/Ny7czN9/artworks-n6aa-Zbz-Kd-ATMv8p-D-zy-KICA-t500x500.jpg",
+            "contribution":"Es una científica computacional, matemática e ingeniera de Software. Fue directora de la División de Ingeniería de Software del Laboratorio de Instrumentación del MIT,​ donde con su equipo desarrolló el software de navegación 'on-board' para el Programa Espacial Apolo. En 1986, se convirtió en la fundadora y CEO de Hamilton Technologies, Inc. en Cambridge, Massachusetts. La compañía se desarrolló alrededor del lenguaje universal de sistemas basada en su paradigma de 'desarrollo antes del hecho' (DBTF, del inglés Development Before the Fact) para sistemas de diseño de software. Acuñó el término «ingeniería de software» para distinguir entre el trabajo de hardware y otras ingenierías. A pesar de que su idea no fue bien recibida al inicio, eventualmente el software generó el mismo respeto que otras disciplinas."
+        },
+        {
+            "id":"history-10",
+            "name": "Top secret rosies",
+            "image": "https://i.ibb.co/4m48tQf/top-Secret-Rosies.jpg",
+            "contribution":"Es el nombre que se le da a un grupo de mujeres que en 1942 fueron contratadas por el ejército Estadounidense para programar uno de los primeros computadores, el ENIAC. Este grupo de mujeres programadoras estaba formado por Betty Snyder Holberton, Jean Jennings Bartik, Kathleen McNulty Mauchly Antonelli, Marlyn Wescoff Meltzer, Ruth Lichterman Teitelbaum y Frances Bilas Spence.​ Estas mujeres fueron reclutadas por el ejército de los Estado Unidos durante la Segunda Guerra Mundial, tras el asalto de Pearl Harbor del ejército Nipón. Este grupo olvidado de mujeres fue muy importantes ya que hicieron grandes aportaciones a la programación y a la tecnología durante el siglo XX."
+        }
+        
+    ],
+    "Current": [
+        {
+            "id": "current-1",
+            "name": "Jedidah Isler",
+            "image": "https://i.ibb.co/9pkcM18/jedidah-Isler.jpg",
+            "contribution": "Es la primera mujer afroamericana en obtener un doctorado en Física por la Universidad de Yale. Estudia los Blazares, agujeros negros supermasivos hiperactivos. Ha recibido becas de la NSF, la NASA y la Fundación Ford. Jedidah Isler lucha para que las mujeres tengan su hueco en las STEM y ha creado The Search Foundation en la que desarrolla una serie de charlas con mujeres centradas en materias STEM.",
+            "video":""
+        },
+        {
+            "id": "current-2",
+            "name": "Adriana Gascoigne",
+            "image": "https://i.ibb.co/3zrRCPJ/adriana-Gascoigne.jpg",
+            "contribution": "Adriana Gascoigne está licenciada en Sociología y Economía y es la fundadora de la organización sin ánimo de lucro Girls in Tech, de la que también es la CEO. Esta organización ayuda a educar y potenciar el talento de las mujeres en el ámbito de las nuevas tecnologías. El currículum de Gascoigne es espléndido y es que entre sus puestos destacan: vicepresidente de Marketing de SecondMarket; OCM de QwikCart, una startup de compras por internet o asesora de empresas tecnológicas.",
+            "video":""
+        },
+        {
+            "id": "current-3",
+            "name": "Tracy Chou",
+            "image": "https://i.ibb.co/dmBbMZ1/tracy-Chou.jpg",
+            "contribution": "Chou empezó en Pinterest cuando la aplicación tan solo contaba con 15 empleados. Estudió informática en la Universidad de Stanford y es licenciada en ciencias de la computación. Durante sus estudios hizo prácticas en grandes empresas como Facebook y Google. Antes de entrar a formar parte de Pinterest, trabajaba en la red social de preguntas y respuestas Quora.",
+            "video":""
+        },
+        {
+            "id": "current-4",
+            "name": "Amanda Stiles",
+            "image": "https://i.ibb.co/n0gZmRd/amanda-Stiles.jpg",
+            "contribution": "Amanda Stiles hace posible viajar a otros planetas. Trabaja en SpaceX, una de las marcas privadas que permite viajar por el espacio, como Ingeniera de Operaciones de Misiones y Desarrolladora de Software. Amanda Stiles además, ha participado en la Google Lunar X Prize y en el Centro de Investigación Ames de la NASA.",
+            "video":""
+        },
+        {
+            "id": "current-5",
+            "name": "Lisette Titre-Montgomery",
+            "image": "https://i.ibb.co/jHpvzbk/lisette-Titre.jpg",
+            "contribution": "Lisette Titre-Montgomery es directora de arte y desarrolladora de videojuegos. Se centra en modelar a los personajes 3D y conseguir que sus movimientos sean tan reales como los de los seres humanos. Ha participado en juegos como: Los Sims. Dante's Inferno o Los Simpson. Titre-Montgomery lucha por la diversidad en el sector de los videojuegos y la introducción de los jóvenes en la educación STEM.",
+            "video":""
+        },
+        {
+            "id": "current-6",
+            "name": "Daphne Koller",
+            "image": "https://i.ibb.co/LrjHP50/daphne-Koller.jpg",
+            "contribution": "Daphne Koller está revolucionando la educación universitaria tradicional. Es fundadora y creadora de Coursera, una plataforma que en colaboración con grandes universidades ofrece clases gratuitas. Los éxitos de Koller son asombrosos y es que con tan solo 27 años ya formaba parte del profesorado de la universidad de Stanford. La investigación en el área de las STEM es su campo y por ello ha obtenido infinidad de premios y becas para desarrollar los estudios que le han merecido un gran reconocimiento a nivel internacional.",
+            "video":""
+        },
+        {
+            "id": "current-7",
+            "name": "Mayim Bialik",
+            "image": "https://i.ibb.co/H2s7GKV/mayim-Bialik.jpg",
+            "contribution": "Bialik es quizá la más mediática de esta lista, debido a su participación en la serie de televisión The Big Bang Theory, en la que interpreta a Amy. Sin embargo, Bialik es licenciada y doctora en neurociencia. Ha realizado estudios centrados en el síndrome Prader-Willi y su trastorno obsesivo compulsivo, además de investigaciones acerca del vínculo que existe entre las madres y sus hijos.",
+            "video":""
+        },
+        {
+            "id": "current-8",
+            "name": "Jennifer Doudna",
+            "image": "https://i.ibb.co/FB0KhQL/jennifer-Doudna.jpg",
+            "contribution": "Doudna ha desarrollado la técnica CRISPR/Cas9 que dota a los laboratorios de una revolucionaria herramienta para editar y conocer a fondo los genes y los sistemas biológicos. Supone un gran avance ya que gracias a este estudio se podrán investigar y conocer el origen de numerosas enfermedades. Doudna es graduada en bioquímica y doctora en Química Biológica y Farmacología Molecular. Tras pasar por escuelas médicas como la de Harvard o la Universidad de Yale, actualmente ejerce como catedrática en los departamentos de Química y de Biología Molecular y Celular en la Universidad California.",
+            "video":""
+        },
+        {
+            "id": "current-9",
+            "name": "Reshma Saujani",
+            "image": "https://i.ibb.co/t2jsrxt/reshma.jpg",
+            "contribution": "Girls Who Code, la organización que lucha para evitar la brecha de género en el ámbito de la tecnología, es obra de Reshma Saujani. Es abogada y activista y ha sido la primera mujer indioamericana en presentarse al Congreso. Su campaña fue la que le hizo empezar Girls Who Code, para eliminar las diferencias entre géneros. Por ello, Saujani lidera campus y conferencias, además de escribir varios libros para que las niñas y mujeres encuentren su lugar en el mundo digital y de la programación.",
+            "video":""
+        },
+        {
+            "id": "current-10",
+            "name": "Linda Kekelis",
+            "image": "https://i.ibb.co/P6V59M4/linda.jpg",
+            "contribution": "Linda Kekelis a través de su organización Techbridge trata de inspirar e iniciar a las niñas en las STEM. Sin embargo, Kekeilis no solo trabaja con ellas, sino también con sus familiares o profesores quienes también tienen un importante papel para acabar con la brecha de género en esta educación. Linda Kekelis tiene un doctorado en Educación Especial y estudios en Lingüística.",
+            "video":""
+        }
+    ]
+}
