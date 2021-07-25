@@ -7,19 +7,7 @@ const Slider = () => {
             <Carousel fade>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 logo-banner"
-                        src="https://i.ibb.co/DY46MC2/Logo-proyecto.jpg"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>Para ti</h3>
-                        <p className="text-slider">Si tu interes son las areas STEM aqui incuentras información </p>
-
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 baner-img"
+                        className="d-block baner-img"
                         src="https://i.ibb.co/gFFXWF7/Matem-tic.jpg"
                         alt="First slide"
                     />
@@ -32,7 +20,7 @@ const Slider = () => {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 baner-img"
+                        className="d-block baner-img"
                         src="https://i.ibb.co/yn5RKP8/Cientifica.jpg"
                         alt="Second slide"
                     />
@@ -43,7 +31,7 @@ const Slider = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 baner-img"
+                        className="d-block baner-img"
                         src="https://i.ibb.co/vjgt1r1/programadora.jpg"
                         alt="Third slide"
                     />
@@ -54,7 +42,7 @@ const Slider = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 baner-img"
+                        className="d-block baner-img"
                         src="https://i.ibb.co/XzdXm6P/ingeniera.jpg"
                         alt="First slide"
                     />

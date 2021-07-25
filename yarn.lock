@@ -3798,7 +3798,6 @@
     "strip-ansi" "^6.0.0"
     "wrap-ansi" "^7.0.0"
 
-<<<<<<< HEAD
 "clone-response@^1.0.2":
   "integrity" "sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws="
   "resolved" "https://registry.npmjs.org/clone-response/-/clone-response-1.0.2.tgz"
@@ -3806,8 +3805,6 @@
   dependencies:
     "mimic-response" "^1.0.0"
 
-=======
->>>>>>> 3c3c74524a5a438324392ec5635703a7ab40e3dd
 "co@^4.6.0":
   "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
   "resolved" "https://registry.npmjs.org/co/-/co-4.6.0.tgz"
