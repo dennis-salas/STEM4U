@@ -9,7 +9,7 @@ export const Footer = () => {
                         <div class="row">
                             <div class="col-md-6 ">
                                 <div class="logo-part">
-                                    <img src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" class="w-50 logo-footer" />
+                                    <img src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" class="w-50 logo-footer"  />
                                     <p><i class="fa fa-location-arrow"></i> Academia Geek</p>
                                     <p><i class="fa fa-phone"></i>  +57 3107542173 - 3165715140  </p>
                                     <p><i class="fa fa fa-envelope"></i> info@stem4u.com  </p>
