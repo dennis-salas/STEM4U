@@ -6,7 +6,7 @@ export const Contact = () => {
     <div>
       <div className="contact-clean">
         <form method="post">
-          <h2 className="text-center">Contact us</h2>
+          <h2 className="text-center">Contáctanos</h2>
           <div className="form-group">
             <input
               className="form-control"
@@ -33,7 +33,7 @@ export const Contact = () => {
           </div>
           <div className="form-group">
             <button className="btn" type="submit">
-              send
+              Enviar
             </button>
           </div>
         </form>
