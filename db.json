@@ -1,11 +1,13 @@
 {
     "category" : [
         {
+            "id": 1,
             "name": "History",
             "section": "Mujeres STEM de la Historia"
 
         },
         {
+            "id": 2,
             "name": "Current",
             "section": "Mujeres STEM de la Actualidad"
         }
@@ -79,7 +81,7 @@
             "name": "Jedidah Isler",
             "image": "https://i.ibb.co/9pkcM18/jedidah-Isler.jpg",
             "contribution": "Es la primera mujer afroamericana en obtener un doctorado en Física por la Universidad de Yale. Estudia los Blazares, agujeros negros supermasivos hiperactivos. Ha recibido becas de la NSF, la NASA y la Fundación Ford. Jedidah Isler lucha para que las mujeres tengan su hueco en las STEM y ha creado The Search Foundation en la que desarrolla una serie de charlas con mujeres centradas en materias STEM.",
-            "video":""
+            "video":"https://www.youtube.com/embed/XzZJuEDQ1a0"
         },
         {
             "id": "current-2",
