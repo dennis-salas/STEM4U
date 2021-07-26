@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Button, Container, Image } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
-import { startLoginEmailPassword, loginGoogle } from '../actions'
+import { startLoginEmailPassword, loginGoogle } from '../action/actions'
 import { useDispatch } from "react-redux";
 
 

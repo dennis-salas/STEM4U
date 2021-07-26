@@ -12,6 +12,7 @@ import { Stories } from '../Containers/Stories';
 import { Contact } from '../Containers/Contact';
 import Login from '../Components/Login';
 import Register from '../Components/Register';
+import { Footer } from '../Components/Footer';
 
 const AppRouter = () => {
     return (
@@ -26,6 +27,7 @@ const AppRouter = () => {
                 <Route exact path="/Login" component={Login} />
                 <Route exact path="/Register" component={Register} />
             </Switch>
+            <Footer/>
         </Router>
     )
 }
