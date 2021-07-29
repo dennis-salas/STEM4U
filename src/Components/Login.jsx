@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Button, Container, Image } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
-import { startLoginEmailPassword, loginGoogle } from '../action/actions'
+import { login, loginGoogle } from '../action/actions'
 import { useDispatch } from "react-redux";
 
 
@@ -20,8 +20,8 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    dispatch(startLoginEmailPassword(email, password))
-    console.log(email, password);;
+    dispatch(login(email, password))
+    console.log(email, password);
   }
 
 

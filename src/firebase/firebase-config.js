@@ -5,11 +5,11 @@ import 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBQbE5lYX6CrjeNhd0S9SOgdQNPElTDZ5o",
-    authDomain: "stem4u-ea462.firebaseapp.com",
-    projectId: "stem4u-ea462",
-    storageBucket: "stem4u-ea462.appspot.com",
-    messagingSenderId: "457742202456",
-    appId: "1:457742202456:web:da6cc01bce4e1f78defc2d"
+  authDomain: "stem4u-ea462.firebaseapp.com",
+  projectId: "stem4u-ea462",
+  storageBucket: "stem4u-ea462.appspot.com",
+  messagingSenderId: "457742202456",
+  appId: "1:457742202456:web:da6cc01bce4e1f78defc2d"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

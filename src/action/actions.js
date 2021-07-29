@@ -2,14 +2,7 @@ import {types} from '../type/types'
 import {firebase, google} from '../firebase/firebase-config'
 
 
-export const startLoginEmailPassword= (email, password) => {
-    return (dispatch) => {
-        return firebase.auth().signInWithEmailAndPassword(email, password)
-            .then(({ user }) => {
-                dispatch(login(user.uid, user.displayName));
-            })
-        }
-}
+
 export const loginGoogle = ()=>{
     return (dispatch) => {
         firebase.auth().signInWithPopup(google)
@@ -23,18 +16,30 @@ export const loginGoogle = ()=>{
     }
 
 }
-
-
-
 export const login = (id, displayName) => {
-    return {
-        type : types.login,
-        payload:{
-            id,
-            displayName
-        }
-    }
+  return {
+    type: types.login,
+    payload: {
+      id,
+      displayName
+    },
+  };
+};
+
+export const loginEmailPassword = (email, password)=>{
+  return (dispatch)=>
+  {
+    firebase.auth().signInWithEmailAndPassword(email, password).then(({user})=>{
+      dispatch(
+        login(user.uid, user.displayName)
+      )
+    })
+    .catch(e=>{
+      console.log(e)
+    })
+  }
 }
+
 export const registro = (nombre, apellido, email, password) => {
     return {
       type: types.usuario,
@@ -49,15 +54,13 @@ export const registro = (nombre, apellido, email, password) => {
 
   export const registroUsuario = (email, password, nombre, apellido) => {
     return (dispatch) => {
-      firebase
-        .auth()
-        .createUserWithEmailAndPassword(email, password, nombre, apellido)
+      firebase.auth().createUserWithEmailAndPassword(email, password)
         .then(async ({ user }) => {
           console.log(user);
   
-          await user.updateProfile({ displayName: nombre });
+          await user.updateProfile({ displayName: nombre, apellido});
   
-          dispatch(registro(user.uid, user.displayName));
+          dispatch(login(user.uid, user.displayName));
         })
         .catch((e) => {
           console.log(e);

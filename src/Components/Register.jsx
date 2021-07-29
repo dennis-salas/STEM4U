@@ -3,7 +3,7 @@ import { Button, Form, Container, Image } from 'react-bootstrap'
 import '../style/loginS.css';
 import { useForm } from '../hook/useForm';
 import { useDispatch } from 'react-redux';
-import {registro} from '../action/actions'
+import {registroUsuario} from '../action/actions'
 
 
 
@@ -22,8 +22,8 @@ const Register = () => {
 
   const handleRegistro = (e) => {
     e.preventDefault();
-    console.log(nombres, apellidos, email);
-    dispatch(registro(nombres, apellidos, email, password));
+    console.log(email, password, nombres, apellidos);
+    dispatch(registroUsuario(email, password, nombres, apellidos));
     reset();
   };
 
@@ -37,7 +37,7 @@ const Register = () => {
             </Container>
             <Form.Group className="mb-3 " controlId="formBasicName">
               <Form.Label>Nombres</Form.Label>
-              <Form.Control type="text" placeholder="Enter email" name="nombres" value={nombres} onChange={handleInputChange}/>
+              <Form.Control type="text" placeholder="Enter name" name="nombres" value={nombres} onChange={handleInputChange}/>
             </Form.Group>
             <Form.Group className="mb-3 " controlId="formBasicEmail">
               <Form.Label>Apellidos</Form.Label>
