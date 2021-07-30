@@ -1,24 +1,32 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import Axios from 'axios'
+import CardPublicaciones from "../Components/CardPublicaciones";
+import { useEffect, useState } from "react";
+
 
 export const Publications = () => {
-  return (
-    <div>
-      <h1>Noticias resaltantes de las areas STEM</h1>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
-          </Card.Subtitle>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Card.Link href="#">Card Link</Card.Link>
-        </Card.Body>
-      </Card>
-    </div>
-  );
-};
+  const [noticias,setNoticias] = useState([])
+
+  useEffect(() => {
+     Axios.get('https://newsapi.org/v2/everything?q=keyword&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081')
+     .then(response => 
+     {
+       setNoticias(response.data)
+       console.log(noticias)
+
+       
+    })
+  })
+
+
+return (
+      <CardPublicaciones noticias={noticias}/>
+
+      
+)
+
+}
+
+
+  
+
