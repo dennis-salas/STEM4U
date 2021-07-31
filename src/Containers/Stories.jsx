@@ -36,9 +36,9 @@ export const Stories = () => {
                 }
             </Row>
             {
-                (type === History) ?
-                    <CardHistory />
-                    : <CardCurrent />
+                (type === 'Current')
+                    ? <CardCurrent />
+                    : <CardHistory />
             }
         </Container>
     )

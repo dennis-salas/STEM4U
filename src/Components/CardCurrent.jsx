@@ -16,7 +16,7 @@ const CardCurrent = () => {
 
     }, [])
     return (
-        <Container>
+        <Container className="my-2">
             {
                 women.map(ele => (
                     <Row key={ele.id} className="justify-content-md-center align-items-center">
