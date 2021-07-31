@@ -14,11 +14,11 @@ const NavBarStem = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto">
-                            <Link className="nav-link" to="/">Inicio</Link>
-                            <Link className="nav-link" to="/Publications">Publicaciones</Link>
-                            <Link className="nav-link" to="/Services">Servicios</Link>
-                            <Link className="nav-link" to="/Stories">Historias</Link>
-                            <Link className="nav-link" to="/Contact">Contacto</Link>
+                            <Link className="nav-link fs-5 text " to="/">Inicio</Link>
+                            <Link className="nav-link fs-5 text" to="/Publications">Publicaciones</Link>
+                            <Link className="nav-link fs-5 text" to="/Services">Servicios</Link>
+                            <Link className="nav-link fs-5 text" to="/Stories">Historias</Link>
+                            <Link className="nav-link fs-5 text" to="/Contact">Contacto</Link>
                         </Nav>
                         <Nav>
                             <Link className="nav-link mb-4" to="/Register">

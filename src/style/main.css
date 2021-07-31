@@ -5,6 +5,7 @@
 
 .navbar {
     background-color: #D7BDE2;
+    font-family: 'Lato';
 }
 
 .btn {
@@ -27,12 +28,12 @@
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato';
     color: rgb(93, 39, 143);
 }
 
 h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato';
     color: rgb(93, 39, 143);
 }
 
