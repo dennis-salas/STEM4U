@@ -77,74 +77,94 @@
     ],
     "Current": [
         {
+            "id": "current-8",
+            "name": "Jennifer Doudna",
+            "image": "https://i.ibb.co/FB0KhQL/jennifer-Doudna.jpg",
+            "contribution": "Doudna ha desarrollado la técnica CRISPR/Cas9 que dota a los laboratorios de una revolucionaria herramienta para editar y conocer a fondo los genes y los sistemas biológicos. Supone un gran avance ya que gracias a este estudio se podrán investigar y conocer el origen de numerosas enfermedades. Doudna es graduada en bioquímica y doctora en Química Biológica y Farmacología Molecular. Tras pasar por escuelas médicas como la de Harvard o la Universidad de Yale, actualmente ejerce como catedrática en los departamentos de Química y de Biología Molecular y Celular en la Universidad California.",
+            "video":"https://www.youtube.com/embed/V4Ac4hFbgQk",
+            "area": "Ciencias",
+            "profession": "Bioquímica"
+        },
+        {
             "id": "current-1",
             "name": "Jedidah Isler",
             "image": "https://i.ibb.co/9pkcM18/jedidah-Isler.jpg",
             "contribution": "Es la primera mujer afroamericana en obtener un doctorado en Física por la Universidad de Yale. Estudia los Blazares, agujeros negros supermasivos hiperactivos. Ha recibido becas de la NSF, la NASA y la Fundación Ford. Jedidah Isler lucha para que las mujeres tengan su hueco en las STEM y ha creado The Search Foundation en la que desarrolla una serie de charlas con mujeres centradas en materias STEM.",
-            "video":"https://www.youtube.com/embed/XzZJuEDQ1a0"
+            "video":"https://www.youtube.com/embed/XzZJuEDQ1a0",
+            "area": "Fisica",
+            "profession": "Astrofisica y Profesora"
         },
         {
             "id": "current-2",
             "name": "Adriana Gascoigne",
             "image": "https://i.ibb.co/3zrRCPJ/adriana-Gascoigne.jpg",
             "contribution": "Adriana Gascoigne está licenciada en Sociología y Economía y es la fundadora de la organización sin ánimo de lucro Girls in Tech, de la que también es la CEO. Esta organización ayuda a educar y potenciar el talento de las mujeres en el ámbito de las nuevas tecnologías. El currículum de Gascoigne es espléndido y es que entre sus puestos destacan: vicepresidente de Marketing de SecondMarket; OCM de QwikCart, una startup de compras por internet o asesora de empresas tecnológicas.",
-            "video":""
+            "video":"https://www.youtube.com/embed/7ef5exSHEjE",
+            "area": "Tecnologia",
+            "profession": "Licenciada en Sociología y Economía"
         },
         {
             "id": "current-3",
             "name": "Tracy Chou",
             "image": "https://i.ibb.co/dmBbMZ1/tracy-Chou.jpg",
             "contribution": "Chou empezó en Pinterest cuando la aplicación tan solo contaba con 15 empleados. Estudió informática en la Universidad de Stanford y es licenciada en ciencias de la computación. Durante sus estudios hizo prácticas en grandes empresas como Facebook y Google. Antes de entrar a formar parte de Pinterest, trabajaba en la red social de preguntas y respuestas Quora.",
-            "video":""
+            "video":"https://www.youtube.com/embed/H7X4mNwE9RM",
+            "area": "Tecnologia",
+            "profession": "Licenciada en ciencias de la computación"
         },
         {
             "id": "current-4",
             "name": "Amanda Stiles",
             "image": "https://i.ibb.co/n0gZmRd/amanda-Stiles.jpg",
             "contribution": "Amanda Stiles hace posible viajar a otros planetas. Trabaja en SpaceX, una de las marcas privadas que permite viajar por el espacio, como Ingeniera de Operaciones de Misiones y Desarrolladora de Software. Amanda Stiles además, ha participado en la Google Lunar X Prize y en el Centro de Investigación Ames de la NASA.",
-            "video":""
+            "video":"https://www.youtube.com/embed/RDf0OVSEup4",
+            "area": "Tecnologia",
+            "profession": "Ingeniera"
         },
         {
             "id": "current-5",
             "name": "Lisette Titre-Montgomery",
             "image": "https://i.ibb.co/jHpvzbk/lisette-Titre.jpg",
             "contribution": "Lisette Titre-Montgomery es directora de arte y desarrolladora de videojuegos. Se centra en modelar a los personajes 3D y conseguir que sus movimientos sean tan reales como los de los seres humanos. Ha participado en juegos como: Los Sims. Dante's Inferno o Los Simpson. Titre-Montgomery lucha por la diversidad en el sector de los videojuegos y la introducción de los jóvenes en la educación STEM.",
-            "video":""
+            "video":"https://www.youtube.com/embed/s3k9p5bofyE",
+            "area": "Tecnologia",
+            "profession": "Desarrolladora de videojuegos."
         },
         {
             "id": "current-6",
             "name": "Daphne Koller",
             "image": "https://i.ibb.co/LrjHP50/daphne-Koller.jpg",
             "contribution": "Daphne Koller está revolucionando la educación universitaria tradicional. Es fundadora y creadora de Coursera, una plataforma que en colaboración con grandes universidades ofrece clases gratuitas. Los éxitos de Koller son asombrosos y es que con tan solo 27 años ya formaba parte del profesorado de la universidad de Stanford. La investigación en el área de las STEM es su campo y por ello ha obtenido infinidad de premios y becas para desarrollar los estudios que le han merecido un gran reconocimiento a nivel internacional.",
-            "video":""
+            "video":"https://www.youtube.com/embed/7TlZ7l0J76o",
+            "area": "Tecnologia",
+            "profession": "Informática teórica, ingeniera, investigadora de la inteligencia artificial y profesora de universidad "
         },
         {
             "id": "current-7",
             "name": "Mayim Bialik",
             "image": "https://i.ibb.co/H2s7GKV/mayim-Bialik.jpg",
             "contribution": "Bialik es quizá la más mediática de esta lista, debido a su participación en la serie de televisión The Big Bang Theory, en la que interpreta a Amy. Sin embargo, Bialik es licenciada y doctora en neurociencia. Ha realizado estudios centrados en el síndrome Prader-Willi y su trastorno obsesivo compulsivo, además de investigaciones acerca del vínculo que existe entre las madres y sus hijos.",
-            "video":""
-        },
-        {
-            "id": "current-8",
-            "name": "Jennifer Doudna",
-            "image": "https://i.ibb.co/FB0KhQL/jennifer-Doudna.jpg",
-            "contribution": "Doudna ha desarrollado la técnica CRISPR/Cas9 que dota a los laboratorios de una revolucionaria herramienta para editar y conocer a fondo los genes y los sistemas biológicos. Supone un gran avance ya que gracias a este estudio se podrán investigar y conocer el origen de numerosas enfermedades. Doudna es graduada en bioquímica y doctora en Química Biológica y Farmacología Molecular. Tras pasar por escuelas médicas como la de Harvard o la Universidad de Yale, actualmente ejerce como catedrática en los departamentos de Química y de Biología Molecular y Celular en la Universidad California.",
-            "video":""
+            "video":"https://www.youtube.com/embed/TZt-JTdfXjw",
+            "area": "Ciencias",
+            "profession": "Neurociencia "
         },
         {
             "id": "current-9",
             "name": "Reshma Saujani",
             "image": "https://i.ibb.co/t2jsrxt/reshma.jpg",
             "contribution": "Girls Who Code, la organización que lucha para evitar la brecha de género en el ámbito de la tecnología, es obra de Reshma Saujani. Es abogada y activista y ha sido la primera mujer indioamericana en presentarse al Congreso. Su campaña fue la que le hizo empezar Girls Who Code, para eliminar las diferencias entre géneros. Por ello, Saujani lidera campus y conferencias, además de escribir varios libros para que las niñas y mujeres encuentren su lugar en el mundo digital y de la programación.",
-            "video":""
+            "video":"https://www.youtube.com/embed/9Hw0_yOjlto",
+            "area": "Tecnologia",
+            "profession": "Abogada"
         },
         {
             "id": "current-10",
             "name": "Linda Kekelis",
             "image": "https://i.ibb.co/P6V59M4/linda.jpg",
             "contribution": "Linda Kekelis a través de su organización Techbridge trata de inspirar e iniciar a las niñas en las STEM. Sin embargo, Kekeilis no solo trabaja con ellas, sino también con sus familiares o profesores quienes también tienen un importante papel para acabar con la brecha de género en esta educación. Linda Kekelis tiene un doctorado en Educación Especial y estudios en Lingüística.",
-            "video":""
+            "video":"https://www.youtube.com/embed/G-pZ6DRv2SU",
+            "area": "Ciencias",
+            "profession": "Doctora en Educación Especial"
         }
     ]
 }

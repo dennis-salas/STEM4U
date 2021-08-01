@@ -1,50 +1,52 @@
 import React from 'react'
+import { Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../style/footer.css'
 export const Footer = () => {
     return (
-        <footer class="container-fluid bg-grey py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6 ">
-                                <div class="logo-part">
-                                    <img src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" class="w-50 logo-footer"  />
-                                    <p><i class="fa fa-location-arrow"></i> Academia Geek</p>
-                                    <p><i class="fa fa-phone"></i>  +57 3107542173 - 3165715140  </p>
-                                    <p><i class="fa fa fa-envelope"></i> info@stem4u.com  </p>
+        <footer className="container-fluid bg-grey py-5">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="row">
+                            <div className="col-md-6 ">
+                                <div className="logo-part">
+                                    <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" className="w-50 logo-footer" />
+                                    <p><i className="fa fa-location-arrow"></i> Academia Geek</p>
+                                    <p><i className="fa fa-phone"></i>  +57 3107542173 - 3165715140  </p>
+                                    <p><i className="fa fa fa-envelope"></i> info@stem4u.com  </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 px-4">
+                            <div className="col-md-6 px-4">
                                 <h6> Sobre nosotros</h6>
                                 <p>Las mujeres tenemos mucho poder y usamos las tecnologías para vivir en igualdad.</p>
-                                <a href="/Contact" class="btn-footer"> Contactanos</a>
+                                <a href="/Contact" className="btn-footer"> Contactanos</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6 px-4">
+                    <div className="col-md-6">
+                        <div className="row">
+                            <div className="col-md-6 px-4">
                                 <h6> Explorar</h6>
-                                <div class="row ">
-                                    <div class="col-md-6">
+                                <div className="row ">
+                                    <div className="col-md-6">
                                         <ul>
-                                            <li> <a href="/"> Inicio</a> </li>
-                                            <li> <a href="Publications"> Publicaciones</a> </li>
-                                            <li> <a href="/Services"> Servicios</a> </li>
-                                            <li> <a href="/Stories"> Historia</a> </li>
-                                            <li> <a href="/Contact"> Contacto</a> </li>
+                                            <li> <Link to="/"> Inicio</Link> </li>
+                                            <li> <Link to="Publications"> Publicaciones</Link> </li>
+                                            <li> <Link to="/Services"> Servicios</Link> </li>
+                                            <li> <Link to="/Stories"> Historia</Link> </li>
+                                            <li> <Link to="/Contact"> Contacto</Link> </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 ">
+                            <div className="col-md-6 ">
                                 <h6> Redes sociales</h6>
-                                <div class="social">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <div className="social">
+                                    <Link ><i className="fa fa-facebook" aria-hidden="true"></i></Link>
+                                    <Link ><i className="fa fa-instagram" aria-hidden="true"></i></Link>
                                 </div>
-                                <form class="form-footer my-3">
+                                <form className="form-footer my-3">
                                     <input type="text" placeholder="Busca aquí...." name="search" />
                                     <input type="button" value="Ir" />
                                 </form>
@@ -53,7 +55,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p class="text-center">Copyright @2021 | Designed With by  <a href="#">Grupo STEM4U</a></p>
+            <p className="text-center">Copyright @2021 | Designed With by  <Link>Grupo STEM4U</Link></p>
         </footer>
     )
 }
