@@ -1,23 +1,23 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Card, Figure } from "react-bootstrap";
+import '../style/cardPublicaciones.css';
 
 const CardPublicaciones = () => {
    
   return (
     <div>
       <h1>Noticias resaltantes de las areas STEM</h1>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <Card className="card__content">
+        <Figure>
+        <Card.Img variant="top" src="https://www.masscience.com/wp-content/uploads/2021/06/Staphylococcus-Aureus.jpeg" />
+        </Figure>
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
-          </Card.Subtitle>
+          <Card.Title>Efectos en los organismos causados por Staphylococcus Aureus</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          EFECTOS EN LOS ORGANISMOS CAUSADOS POR STAPHYLOCOCCUS AUREUS. UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO UNIVERSIDAD ST JOHN´S STAPHYLOCOCCUS AUREUS RESISTENCIA A 
+          LOS ANTIBIÓTICOS GUTIÉRREZ SAUCEDO JAKELINE.1 ARCERO CASTAÑEDA GUILLERMO.1 ESPINOZA ECHEVERRÍA
           </Card.Text>
-          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Ver mas</Card.Link>
         </Card.Body>
       </Card>
     </div>
