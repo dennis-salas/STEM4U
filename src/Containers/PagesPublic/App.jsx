@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from '../Components/Slider'
+import Slider from '../../Components/Slider'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
 const App = () => {

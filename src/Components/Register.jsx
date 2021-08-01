@@ -3,12 +3,13 @@ import { Button, Form, Container, Image } from 'react-bootstrap'
 import '../style/loginS.css';
 import { useForm } from '../hook/useForm';
 import { useDispatch } from 'react-redux';
-import {registroUsuario} from '../action/actions'
+import { registroUsuario } from '../action/actions'
+import { Link } from 'react-router-dom';
 
 
 
 const Register = () => {
-   
+
   const dispatch = useDispatch();
 
   const [formValues, handleInputChange, reset] = useForm({
@@ -28,8 +29,8 @@ const Register = () => {
   };
 
   return (
-    <Container className="mt-5">
-      <Container className="mt-4">
+    <Container className="mt-5 mb-5">
+      <Container className="mt-4 mb-5">
         <div className="login-root">
           <Form className="form-login" onSubmit={handleRegistro}>
             <Container className="row justify-content-center">
@@ -37,14 +38,14 @@ const Register = () => {
             </Container>
             <Form.Group className="mb-3 " controlId="formBasicName">
               <Form.Label>Nombres</Form.Label>
-              <Form.Control type="text" placeholder="Enter name" name="nombres" value={nombres} onChange={handleInputChange}/>
+              <Form.Control type="text" placeholder="Enter name" name="nombres" value={nombres} onChange={handleInputChange} />
             </Form.Group>
             <Form.Group className="mb-3 " controlId="formBasicEmail">
               <Form.Label>Apellidos</Form.Label>
-              <Form.Control type="text" placeholder="Enter lastname" name="apellidos"value={apellidos} onChange={handleInputChange} />
+              <Form.Control type="text" placeholder="Enter lastname" name="apellidos" value={apellidos} onChange={handleInputChange} />
             </Form.Group><Form.Group className="mb-3 " controlId="formBasicLastName">
               <Form.Label>Correo electronico</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={handleInputChange}/>
+              <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={handleInputChange} />
             </Form.Group><Form.Group className="mb-3 ">
               <Form.Label>Contraseña</Form.Label>
               <Form.Control type="password" name="password" placeholder="Enter password" value={password} onChange={handleInputChange} />
@@ -52,6 +53,10 @@ const Register = () => {
             <Button className="btn" type="submit">
               Enviar
             </Button>
+            <Link
+              to="/login">
+              Ya estas registrada? click aqui
+            </Link>
           </Form>
         </div>
       </Container>
