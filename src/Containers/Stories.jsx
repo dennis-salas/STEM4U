@@ -27,8 +27,8 @@ export const Stories = () => {
             <Row >
                 {
                     section.map(ele => (
-                        <Col xs={6} key={ele.id}>
-                            <Button className="btn-login btn"
+                        <Col md={6} key={ele.id}>
+                            <Button variant="outline-light" className="btn-login btn w-100"
                                 onClick={() => handleClick(ele.name)}
                             >{ele.section}</Button>
                         </Col>
