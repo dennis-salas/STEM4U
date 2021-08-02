@@ -4,7 +4,8 @@
     width: 100%;
     overflow: hidden;
 }
-.form-login{
+
+.form-login {
     margin: 0px auto;
     width: 100%;
     min-height: fit-content;
@@ -14,10 +15,11 @@
     box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
     padding: 20px;
 }
-.btn{
+
+.btn {
     margin-top: 20px;
     background: #43055c;
     height: 40px;
     border-radius: 10px;
     align-content: center;
-  }
+}

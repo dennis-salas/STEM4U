@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Button, Row, Col } from 'react-bootstrap'
 import axios from 'axios'
-import CardHistory from '../Components/CardHistory'
-import CardCurrent from '../Components/CardCurrent'
+import CardHistory from '../../Components/CardHistory'
+import CardCurrent from '../../Components/CardCurrent'
 
 export const Stories = () => {
 

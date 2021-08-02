@@ -1,33 +1,58 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { firebase } from '../firebase/firebase-config'
+import { useDispatch } from 'react-redux'
+import { login } from '../action/actions';
+import { Spinner } from 'react-bootstrap'
 import {
     BrowserRouter as Router,
     Switch,
-    Route
+    Redirect
 } from "react-router-dom";
-import NavBarStem from '../Components/NavBarStem';
-import App from '../Containers/App';
-import { Publications } from '../Containers/Publications';
-import { Services } from '../Containers/Services'
-import { Stories } from '../Containers/Stories';
-import { Contact } from '../Containers/Contact';
-import Login from '../Components/Login';
-import Register from '../Components/Register';
-import { Footer } from '../Components/Footer';
+import { PublicRoute } from './PublicRoute';
+import { PrivateRoute } from './PrivateRoute';
+import { AuthRoute } from './AuthRoute';
+import { AuthPrivateRouter } from './AuthPrivateRouter';
 
 const AppRouter = () => {
+
+    const dispatch = useDispatch()
+    const [cheking, setCheking] = useState(true)
+    const [isLooggedIn, setIsLooggedIn] = useState(false)
+
+    useEffect(() => {
+        firebase.auth().onAuthStateChanged(async (user) => {
+            if (user?.uid) {
+                dispatch(login(user.uid, user.displayName));
+                setIsLooggedIn(true)
+            } else {
+                setIsLooggedIn(false)
+            }
+            setCheking(false)
+        });
+    }, [dispatch, setCheking])
+
+    if (cheking) {
+        return (
+            <h1>Cargando...</h1>
+        )
+    }
     return (
         <Router>
-            <NavBarStem />
-            <Switch>
-                <Route exact path="/" component={App} />
-                <Route exact path="/Publications" component={Publications} />
-                <Route exact path="/Services" component={Services} />
-                <Route exact path="/Stories" component={Stories} />
-                <Route exact path="/Contact" component={Contact} />
-                <Route exact path="/Login" component={Login} />
-                <Route exact path="/Register" component={Register} />
-            </Switch>
-            <Footer/>
+            <div>
+                <Switch>
+                    <PublicRoute
+                        path="/auth"
+                        component={AuthRoute}
+                    //isAuthenticated={isLooggedIn}
+                    />
+                    <PrivateRoute
+                        path="/Home"
+                        component={AuthPrivateRouter}
+                    //isAuthenticated={isLooggedIn}
+                    />
+                    <Redirect to="/auth/login" />
+                </Switch>
+            </div>
         </Router>
     )
 }
