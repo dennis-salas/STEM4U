@@ -19,7 +19,7 @@ export const AuthRoute = () => {
                     <Switch>
                         <Route
                             exact
-                            path="/"
+                            path="/App"
                             component={App}
                         />
                         <Route
@@ -54,7 +54,7 @@ export const AuthRoute = () => {
                             component={Register}
                         />
 
-                        <Redirect to="/" />
+                        <Redirect to="/App" />
 
 
                     </Switch>
