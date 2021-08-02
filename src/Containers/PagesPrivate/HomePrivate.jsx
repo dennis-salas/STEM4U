@@ -1,10 +1,11 @@
 import React from 'react'
 import { startLogout } from '../../action/actions'
-import { useDispatch } from 'react'
+import { useDispatch } from 'react-redux'
+import { Button } from 'react-bootstrap'
 
 const HomePrivate = () => {
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     const handleLogout = () => {
         dispatch(startLogout())
@@ -12,9 +13,9 @@ const HomePrivate = () => {
     return (
         <div>
             <h1>Bienvenido</h1>
-            <button
+            <Button
                 onClick={handleLogout}
-            ></button>
+            >Cerrar Sesión</Button>
         </div>
     )
 }

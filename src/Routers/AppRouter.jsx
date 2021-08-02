@@ -43,12 +43,12 @@ const AppRouter = () => {
                     <PublicRoute
                         path="/auth"
                         component={AuthRoute}
-                    //isAuthenticated={isLooggedIn}
+                        isAuthenticated={isLooggedIn}
                     />
                     <PrivateRoute
-                        path="/Home"
+                        path="/"
                         component={AuthPrivateRouter}
-                    //isAuthenticated={isLooggedIn}
+                        isAuthenticated={isLooggedIn}
                     />
                     <Redirect to="/auth/login" />
                 </Switch>

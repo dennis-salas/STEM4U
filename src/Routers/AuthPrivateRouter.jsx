@@ -13,7 +13,7 @@ export const AuthPrivateRouter = () => {
                     <Switch>
                         <Route
                             exact
-                            path="/Home"
+                            path="/"
                             component={HomePrivate}
                         />
 
