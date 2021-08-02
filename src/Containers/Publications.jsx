@@ -1,31 +1,26 @@
 import React from "react";
-import Axios from 'axios'
-import CardPublicaciones from "../Components/CardPublicaciones";
+import axios from 'axios'
 import { useEffect, useState } from "react";
 
 
 export const Publications = () => {
-  const [noticias,setNoticias] = useState([])
-
+  const [noticias ,setNoticias] = useState([])
   useEffect(() => {
-     Axios.get('https://newsapi.org/v2/everything?q=keyword&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081')
-     .then(response => 
-     {
-       setNoticias(response.data)
-       console.log(noticias)
-
-       
-    })
-  })
-
+    axios.get(`https://newsapi.org/v2/top-headlines/sources?apiKey=73ad4b9c8b6b41ea83873ed4eeb61081&category=technology&category=science`)
+        .then(res => {
+          const news = res.data;
+          setNoticias(news);
+        })
+}, [])
 
 return (
-      <CardPublicaciones noticias={noticias}/>
-
-      
+  <div>
+   <h1>hola</h1>
+   </div>
 )
 
 }
+
 
 
   

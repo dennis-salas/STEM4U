@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const NavBarStem = () => {
     return (
-        <Container>
+       <>
             <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand >
@@ -32,7 +32,7 @@ const NavBarStem = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </Container>
+        </>
     )
 }
 
