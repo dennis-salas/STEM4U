@@ -1,9 +1,11 @@
 import React from 'react'
+import EmotionalAssistance from '../PagesPrivate/EmotionalAssistance'
+
 
 export const Services = () => {
     return (
         <div>
-            <h1>Servicios de la pagina</h1>
+            <EmotionalAssistance/>
         </div>
     )
 }
