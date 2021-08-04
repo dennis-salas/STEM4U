@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Container, Button, Row, Col } from 'react-bootstrap'
 import axios from 'axios'
-import CardHistory from '../Components/CardHistory'
-import CardCurrent from '../Components/CardCurrent'
+import CardHistory from '../../Components/CardHistory'
+import CardCurrent from '../../Components/CardCurrent'
 
 export const Stories = () => {
 
@@ -27,8 +27,8 @@ export const Stories = () => {
             <Row >
                 {
                     section.map(ele => (
-                        <Col xs={6} key={ele.id}>
-                            <Button className="btn-login btn"
+                        <Col md={6} key={ele.id}>
+                            <Button variant="outline-light" className="btn-login btn w-100"
                                 onClick={() => handleClick(ele.name)}
                             >{ele.section}</Button>
                         </Col>
@@ -36,9 +36,9 @@ export const Stories = () => {
                 }
             </Row>
             {
-                (type === History) ?
-                    <CardHistory />
-                    : <CardCurrent />
+                (type === 'Current')
+                    ? <CardCurrent />
+                    : <CardHistory />
             }
         </Container>
     )

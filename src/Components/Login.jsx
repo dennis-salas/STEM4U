@@ -3,13 +3,16 @@ import { Form, Button, Container, Image } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
 import { login, loginGoogle } from '../action/actions'
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 
 
 const Login = () => {
 
   const dispatch = useDispatch();
+
+  const loading = useSelector(state => state.uid)
 
   const [formValues, handleInputChange] = useForm({
     email: "",
@@ -30,8 +33,8 @@ const Login = () => {
     console.log(dispatch(loginGoogle()))
   }
   return (
-    <Container className="mt-5">
-      <Container className="mt-4">
+    <Container className="mt-5 mb-5">
+      <Container className="mt-4 mb-4">
         <div className="login-root">
           <Form onSubmit={handleLogin} className="form-login">
             <Container className="row justify-content-center">
@@ -66,7 +69,11 @@ const Login = () => {
 
             </Form.Group>
             <Container>
-              <Button className="btn" type="submit">
+              <Button
+                className="btn"
+                type="submit"
+                disabled={loading}
+              >
                 Iniciar Sesion
               </Button>
               <img className="google-btn mx-4 mt-4" onClick={handleGoogleLogin} src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="google button" />
@@ -78,6 +85,11 @@ const Login = () => {
                 </Container>
               </Container>
             </Container>
+            <Link
+              to="/register"
+            >
+              No estas Registrado? click aqui
+            </Link>
           </Form>
         </div>
       </Container>

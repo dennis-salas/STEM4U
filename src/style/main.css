@@ -5,6 +5,7 @@
 
 .navbar {
     background-color: #D7BDE2;
+    max-width: 100%;
 }
 
 .btn {
@@ -24,18 +25,26 @@
 
 .text-slider {
     font-size: 20px;
+
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato';
     color: rgb(93, 39, 143);
 }
 
 h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato';
     color: rgb(93, 39, 143);
 }
 
 .text-parrafo {
     text-align: justify;
+}
+
+.line-purple {
+    color: rgb(93, 39, 143);
+}
+hr{
+    color: rgb(93, 39, 143);
 }
