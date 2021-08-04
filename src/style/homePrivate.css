@@ -70,6 +70,9 @@ br {
     text-transform: capitalize;
 }
 
+.links {
+    margin-top: 1.5rem;
+}
 
 .about {
     width: 100%;
@@ -90,8 +93,7 @@ br {
     font-size: 1rem;
 }
 
-
-.about__text {
+.about__title--text h .about__text {
     width: 80%;
     margin: 5% auto;
 }
