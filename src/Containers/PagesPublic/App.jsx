@@ -12,7 +12,7 @@ const App = () => {
                 <hr />
             </Container>
             <Row className="justify-content-center align-items-center">
-                <Col md={6} sm={12}>
+                <Col lg={6} md={12}>
                     <Container className="my-2">
                         <Container>
                             <h4 className="text-center">¿QUE ES STEM?</h4>
@@ -27,8 +27,8 @@ const App = () => {
                         </Container>
                     </Container>
                 </Col >
-                <Col md={6} sm={12}>
-                    <Image src="https://i.ibb.co/VBP42JS/stem-1.jpg" />
+                <Col lg={6} md={12} className="justify-content-center">
+                    <Image src="https://i.ibb.co/VBP42JS/stem-1.jpg" className="rounded mx-auto d-block" />
                 </Col>
             </Row >
         </>
