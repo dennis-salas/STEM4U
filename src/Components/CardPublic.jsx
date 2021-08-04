@@ -5,31 +5,31 @@ import "../style/cardPublic.css";
 
 
 const CardPublic = ({noticias}) => {
+ const {id, urlToImage,category,name, description, url}= noticias;
 
+ 
   return (
     <Container>
-        {
-            noticias.map(ele => {
-              <Card className="cardPublic" key={ele.id}>
+        
+           
+              <Card className="cardPublic" >
               <Row>
               <div className="card-text">
               <Col>
-                  <Card.Img variant="top" src={ele.urlToImage} className="portada"/>
+                  <Card.Img variant="top" src={urlToImage} className="portada"/>
               </Col>
                   <div className="title-total">
-                    <div className="title">{ele.category}</div>
-                    <h2>{ele.name}</h2>
+                    <div className="title">{category}</div>
+                    <h2>{name}</h2>
                     <div className="desc">
-                     {ele.description}
+                     {description}
                       <hr />
-                      <Card.Link href={ele.url}></Card.Link>
+                      <Card.Link href={url}></Card.Link>
                     </div>
                   </div>
                 </div>
                 </Row>
                 </Card>
-            })
-        }
     </Container>
 )
 }
