@@ -16,7 +16,7 @@ const Register = () => {
     nombres: "",
     apellidos: "",
     email: "",
-    password: ""
+    password: "",
   });
 
   const { nombres, apellidos, email, password } = formValues;
@@ -34,7 +34,12 @@ const Register = () => {
         <div className="login-root">
           <Form className="form-login" onSubmit={handleRegistro}>
             <Container className="row justify-content-center">
-              <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" alt="logo" className="logo" roundedCircle />
+              <Image
+                src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png"
+                alt="logo"
+                className="logo"
+                roundedCircle
+              />
             </Container>
             <Form.Group className="mb-3 " controlId="formBasicName">
               <Form.Label>Nombres</Form.Label>
@@ -48,7 +53,13 @@ const Register = () => {
               <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={handleInputChange} />
             </Form.Group><Form.Group className="mb-3 ">
               <Form.Label>Contraseña</Form.Label>
-              <Form.Control type="password" name="password" placeholder="Enter password" value={password} onChange={handleInputChange} />
+              <Form.Control
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                value={password}
+                onChange={handleInputChange}
+              />
             </Form.Group>
             <Button className="btn" type="submit">
               Enviar
@@ -61,7 +72,7 @@ const Register = () => {
         </div>
       </Container>
     </Container>
-  )
-}
+  );
+};
 
-export default Register
+export default Register;
