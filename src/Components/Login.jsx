@@ -88,7 +88,7 @@ const Login = () => {
             <Link
               to="/register"
             >
-              No estas Registrado? click aqui
+              No estas Registrado?
             </Link>
           </Form>
         </div>
