@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../style/footer.css'
 export const Footer = () => {
     return (
-        <footer className="container-fluid bg-grey py-5">
+        <footer className="container-fluid bg-grey py-2">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -17,7 +17,7 @@ export const Footer = () => {
                                     <p><i className="fa fa fa-envelope"></i> info@stem4u.com  </p>
                                 </div>
                             </div>
-                            <div className="col-md-6 px-4">
+                            <div className="col-md-6 px-2">
                                 <h6> Sobre nosotros</h6>
                                 <p>Las mujeres tenemos mucho poder y usamos las tecnologías para vivir en igualdad.</p>
                                 <a href="/Contact" className="btn-footer"> Contactanos</a>
@@ -46,7 +46,7 @@ export const Footer = () => {
                                     <Link ><i className="fa fa-facebook" aria-hidden="true"></i></Link>
                                     <Link ><i className="fa fa-instagram" aria-hidden="true"></i></Link>
                                 </div>
-                                <form className="form-footer my-3">
+                                <form className="form-footer my-2">
                                     <input type="text" placeholder="Busca aquí...." name="search" />
                                     <input type="button" value="Ir" />
                                 </form>

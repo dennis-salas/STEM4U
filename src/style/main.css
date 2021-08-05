@@ -48,12 +48,19 @@ h4 {
 hr{
     color: rgb(93, 39, 143);
 }
-img{
+.image-services{
     width: 15rem;
     height: 15rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 h3{
     font-family: 'Lato';
     color: rgb(93, 39, 143);
     font-weight: bold;
+}
+.google-btn{ 
+    width: 30px;
+    height: 30px;
+
 }

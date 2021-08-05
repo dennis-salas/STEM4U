@@ -22,7 +22,7 @@ export const Services = () => {
           </Container>
         </Col>
         <Col md={6} sm={12}>
-          <Image
+          <Image className="image-services"
             src="https://res.cloudinary.com/academia/image/upload/v1628053881/emociona_tlmo1x.jpg"
             roundedCircle
           />
