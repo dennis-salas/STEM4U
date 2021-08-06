@@ -1,11 +1,13 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import Header from '../../Components/Header'
 
 const EmotionalAssistance = () => {
     return (
-        <Container>
+        <div>
+            <Header/>
       <h1>Asistencia emocional</h1>
-     </Container>
+     </div>
     )
 }
 

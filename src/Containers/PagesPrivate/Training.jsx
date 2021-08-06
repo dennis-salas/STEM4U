@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from '../../Components/Header'
 import '../../style/services.css'
 
 const Training = () => {
     return (
         <div>
+            <Header/>
             <h1>Capacitación</h1>
             <div class="row services ms-5" >
                 <div class="col-sm-4">
