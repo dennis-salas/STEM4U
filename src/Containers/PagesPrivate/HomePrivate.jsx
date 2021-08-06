@@ -33,7 +33,7 @@ const HomePrivate = () => {
                     <div className="about__title">
                         <div className="links">
                             <Link className="about__title--text" to="/Tips">Puntos Claves | </Link>
-                            <Link className="about__title--text" to="/Training">Capcitación | </Link>
+                            <Link className="about__title--text" to="/Training">Capacitación | </Link>
                             <Link className="about__title--text" to="/EmotionalAssistance"> Asistencia Emocional</Link>
                         </div>
                     </div>

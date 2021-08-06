@@ -6,16 +6,16 @@ const App = () => {
     return (
         <>
             <Slider />
-            <Container className="my-2">
-                <h1 className="text-center">BIENVENIDA A STEM4U</h1>
-                <p className="text-center"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
+            <Container className="my-4">
+                <h1 className="text-center-appHome">BIENVENIDA A STEM4U</h1>
+                <p className="text-center-appHome"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
                 <hr />
             </Container>
             <Row className="justify-content-center align-items-center">
                 <Col lg={6} md={12}>
                     <Container className="my-2">
                         <Container>
-                            <h4 className="text-center">¿QUE ES STEM?</h4>
+                            <h4 className="text-center-appHome">¿QUE ES STEM?</h4>
                             <p className="text-parrafo">STEM es el acrónimo de Science, Technology, Engineering and Mathematics. Se trata de una integración de las ciencias en un enfoque de enseñanza basado en la interdisciplinaridad y aplicabilidad de los conocimientos de ciencias y matemáticas. Los proyectos y actividades propuestos bajo esa finalidad tienen como objetivo la aplicación del conocimiento científico y matemático en un contexto vinculado a la tecnología y la ingeniería.
                             </p>
                         </Container>
@@ -27,8 +27,8 @@ const App = () => {
                         </Container>
                     </Container>
                 </Col >
-                <Col lg={6} md={12} className="justify-content-center">
-                    <Image src="https://i.ibb.co/VBP42JS/stem-1.jpg" className="rounded mx-auto d-block" />
+                <Col lg={6} md={12} className="">
+                    <Image src="https://i.ibb.co/tPzrFnD/stem-1.jpg" className="mx-auto d-block img-fluid img-app" />
                 </Col>
             </Row >
         </>

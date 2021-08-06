@@ -1,0 +1,78 @@
+.cardHV {
+    position: relative;
+    height: 450px;
+    width: 900px;
+    margin: 200px auto;
+    background-color: #FFF;
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.thumbnailHV {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    height: 320px;
+    width: 530px;
+    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+
+.img.leftHV {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rightHV {
+    margin-left: 590px;
+    margin-right: 20px;
+}
+
+.titleHV {
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color: rgb(93, 39, 143);
+}
+
+.separator {
+    margin-top: 10px;
+    border: 1px solid rgb(93, 39, 143);
+}
+
+.textHV {
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B
+}
+
+.subtitleHV {
+    position: absolute;
+    left: 30px;
+    bottom: 100px;
+    font-size: 1.1rem;
+    color: rgb(93, 39, 143);
+}
+
+.subtextHV {
+    position: absolute;
+    margin-left: 30px;
+    margin-bottom: -55px;
+    font-size: 1rem;
+    color: #C3C3C3;
+    text-align: justify;
+}
