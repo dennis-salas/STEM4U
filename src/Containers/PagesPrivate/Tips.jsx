@@ -1,12 +1,14 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
+import Header from '../../Components/Header'
 
 const Tips = () => {
     return (
-        <Container>
+        <div>
+            <Header />
             <Row>
                 <Col md={3} sm={6}>
-                    <img className="img.leftHV my-2" src="https://i.ibb.co/jV9grtJ/hoja-de-vida.jpg" alt="imagen" />
+                    <img className="img.leftHV my-2 img-fluid" src="https://i.ibb.co/jV9grtJ/hoja-de-vida.jpg" alt="imagen" />
                 </Col>
                 <Col md={9} sm={6}>
                     <h1 className="my-2">Guia para crear</h1>
@@ -82,7 +84,7 @@ const Tips = () => {
                     </ul>
                 </Col>
             </Row>
-        </Container >
+        </div>
     )
 }
 

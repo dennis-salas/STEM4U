@@ -1,6 +1,8 @@
-body {
+* {
     font-family: 'Nunito', sans-serif;
+    font-size: 17px;
 }
+
 
 .logo {
     width: 60px;
@@ -44,19 +46,16 @@ body {
 
 }
 
-.text-center-appHome {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
+h1 {
+
     color: rgb(93, 39, 143);
-    font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 25px;
 }
 
 h4 {
-    font-family: 'Nunito', sans-serif;
+
     color: rgb(93, 39, 143);
+    font-weight: bold;
 }
 
 .text-parrafo {
@@ -87,6 +86,7 @@ h3 {
     color: rgb(93, 39, 143);
     font-size: 26px;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .img-app {
@@ -103,4 +103,16 @@ h3 {
 
 .row {
     margin-bottom: 40px;
+}
+
+.carousel {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    background-color: #d7bde2;
+    color: #333;
+    border-radius: 2rem;
 }
