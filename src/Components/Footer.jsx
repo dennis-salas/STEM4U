@@ -11,7 +11,7 @@ export const Footer = () => {
                         <div className="row">
                             <div className="col-md-6 ">
                                 <div className="logo-part">
-                                    <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" className="w-50 logo-footer" />
+                                    <Image src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" className="w-50 logo-footer" roundedCircle />
                                     <p><i className="fa fa-location-arrow"></i> Academia Geek</p>
                                     <p><i className="fa fa-phone"></i>  +57 3107542173 - 3165715140  </p>
                                     <p><i className="fa fa fa-envelope"></i> info@stem4u.com  </p>

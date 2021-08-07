@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button, Container, Image } from "react-bootstrap";
+import { Form, Button, Container, Image, Col } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
 import { login, loginGoogle } from '../action/actions'
@@ -70,30 +70,29 @@ const Login = () => {
             </Form.Group>
             <Container>
               <Button
-                className="btn"
+                className="btn w-100"
                 type="submit"
                 disabled={loading}
               >
-                Iniciar Sesion
+                Iniciar sesión
               </Button>
-              <img className="google-btn mx-4 mt-4" onClick={handleGoogleLogin} src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="google button" />
-            </Container>
-            <Container className="auth__social-networks">
-              <Container
-                className="google-btn">
-                <Container className="google-icon-wrapper">
-                </Container>
-              </Container>
+              <Button
+                onClick={handleGoogleLogin}
+                className="btn w-100"
+              >
+                <img className="google-btn" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="google button" />
+                <p className="text-white">Iniciar sesión con cuenta google</p>
+              </Button>
             </Container>
             <Link
               to="/register"
             >
-              No estas Registrado?
+              <p className="link-register">No estas Registrada?</p>
             </Link>
-          </Form>
-        </div>
-      </Container>
-    </Container>
+          </Form >
+        </div >
+      </Container >
+    </Container >
 
   );
 };

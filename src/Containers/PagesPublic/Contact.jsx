@@ -5,13 +5,16 @@ export const Contact = () => {
   return (
     <div>
       <div className="row contact-clean">
-        <div className="col-sm-3 ms-5">
-          <img className="col-sm" src="https://res.cloudinary.com/dusnjqou6/image/upload/v1627928006/Womanpower_logo_ru24fc.svg" width="300px" height="405" alt="imagen" />
-        </div>
-        <div className="col-sm-6">
+        <div>
           <div class="d-none d-md-flex col-md-4 col-lg-6 "></div>
           <form method="post">
             <h2 className="text-center">Contáctanos</h2>
+            <img
+              src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png"
+              alt="logo"
+              className="logo mx-auto d-block img-fluid"
+              roundedCircle
+            />
             <div className="form-group">
               <input
                 className="form-control"
@@ -37,7 +40,7 @@ export const Contact = () => {
               ></textarea>
             </div>
             <div className="form-group">
-              <button className="btn" type="submit">
+              <button className="btn w-100" type="submit">
                 Enviar
               </button>
             </div>

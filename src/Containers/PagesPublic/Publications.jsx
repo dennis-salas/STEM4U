@@ -11,11 +11,11 @@ export const Publications = () => {
         setNoticias(listNoticias);
       })
   }, [])
-  
+
   console.log("un articulo", noticias[1])
   return (
     <div>
-     <CardPublic noticias={noticias} />
+      <CardPublic noticias={noticias} />
     </div>
   )
 

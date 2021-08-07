@@ -29,16 +29,16 @@ const CardHistory = () => {
                                 <Card.Body>
                                     <Card.Title>{ele.name}</Card.Title>
                                     <hr className="line-purple" size={4} />
-                                    <Card.Text className="text-parrafo"><small className="text-muted">
+                                    <div className="text-parrafo"><small className="text-muted">
                                         {ele.contribution}
-                                    </small></Card.Text>
+                                    </small></div>
                                 </Card.Body>
                             </Col>
                         </Row>
                     </Card>
                 ))
             }
-        </Container>
+        </Container >
     )
 }
 

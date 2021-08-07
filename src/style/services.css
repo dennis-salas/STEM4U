@@ -12,3 +12,7 @@
 .auth__box {
   background: #f1e0f3;
 }
+
+.image-services {
+  object-fit: cover;
+}
