@@ -1,6 +1,5 @@
 body {
   font-family: 'Nunito', sans-serif;
-  ;
 }
 
 .bg-grey {
@@ -29,7 +28,6 @@ footer h6 {
 
 footer h6:after {
   position: absolute;
-  content: "";
   background: grey;
   width: 12%;
   height: 1px;
