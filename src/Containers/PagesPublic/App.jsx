@@ -6,9 +6,9 @@ const App = () => {
     return (
         <>
             <Slider />
-            <Container className="my-4">
-                <h1 className="text-center-appHome">BIENVENIDA A STEM4U</h1>
-                <p className="text-center-appHome"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
+            <Container className="my-2">
+                <h3 className="text-center">BIENVENIDA A STEM4U</h3>
+                <p className="text-center"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
                 <hr />
             </Container>
             <Row className="justify-content-center align-items-center">
