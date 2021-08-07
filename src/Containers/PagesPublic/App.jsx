@@ -7,7 +7,7 @@ const App = () => {
         <>
             <Slider />
             <Container className="my-2">
-                <h1 className="text-center">BIENVENIDA A STEM4U</h1>
+                <h3 className="text-center">BIENVENIDA A STEM4U</h3>
                 <p className="text-center"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
                 <hr />
             </Container>

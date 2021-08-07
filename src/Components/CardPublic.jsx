@@ -3,8 +3,14 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import "../style/cardPublic.css";
 
 const CardPublic = ({ noticias }) => {
-  const { category, description,id, name, url} = noticias;
-  console.log("noticias que llegan de publicaciones");
+  const {
+  author, 
+  description, 
+  title,
+  url,
+  urlToImage,
+  } = noticias;
+  
 
  
  
@@ -22,12 +28,12 @@ const CardPublic = ({ noticias }) => {
                 />
               </Col>
               <div className="title-total">
-                <div className="title">{ele.category}</div>
+                <div className="title">{ele.author}</div>
                 <h2>{ele.title}</h2>
                 <div className="desc">
                   {ele.description}
                   <hr />
-                  <Card.Link href={ele.url}></Card.Link>
+                  <Card.Link href={ele.url}>Ver mas</Card.Link>
                 </div>
               </div>
             </div>
