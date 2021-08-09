@@ -1,26 +1,22 @@
-import React, { useState, useEffect } from 'react'
-import CardPublic from '../../Components/CardPublic'
-import axios from 'axios'
+import { Container, Tab, Tabs } from "react-bootstrap";
+import CardTecno from "../../Components/CardTecno";
+import CardScience from "../../Components/CardScience";
 
 export const Publications = () => {
-  const [noticias, setNoticias] = useState([]);
-  useEffect(() => {
-    axios.get("https://newsapi.org/v2/top-headlines?country=co&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081")
-      .then(res => {
-        const listNoticias = res.data.articles;
-        setNoticias(listNoticias);
-      })
-  }, [])
-  
-  console.log("un articulo", noticias[1])
   return (
-    <div>
-     <CardPublic noticias={noticias} />
-    </div>
-  )
-
-}
-
-
-
-
+    <Container className="my-3">
+      <Tabs
+        defaultActiveKey="profile"
+        id="uncontrolled-tab-example"
+        className="mb-3"
+      >
+        <Tab eventKey="tecnology" title="Tecnologia">
+          <CardTecno/>
+        </Tab>
+        <Tab eventKey="science" title="Ciencias">
+          <CardScience />
+        </Tab>
+      </Tabs>
+    </Container>
+  );
+};

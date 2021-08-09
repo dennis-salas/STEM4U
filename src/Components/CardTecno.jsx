@@ -1,22 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from 'react'
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "../style/cardPublic.css";
+import axios from 'axios'
 
-const CardPublic = ({ noticias }) => {
-  const {
-  author, 
-  description, 
-  title,
-  url,
-  urlToImage,
-  } = noticias;
+const CardTecno= () => {
+
+  const [tecnology, setTecnology] = useState([]);
   
-
+  useEffect(() => {
+    axios.get("https://newsapi.org/v2/top-headlines?country=co&category=technology&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081")
+      .then(res => {
+        const listTecnology = res.data.articles;
+        setTecnology(listTecnology);
+      })
+  }, [])
  
  
   return (
     <Container>
-      { noticias.map((ele) => (
+      { tecnology.map((ele) => (
         <Card className="cardPublic" key={ele.id}>
           <Row>
             <div className="card-text">
@@ -43,4 +45,4 @@ const CardPublic = ({ noticias }) => {
     </Container>
   );
 };
-export default CardPublic;
+export default CardTecno;

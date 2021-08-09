@@ -38,6 +38,7 @@ h1 {
     
     color: rgb(93, 39, 143);
     font-weight: bold;
+    text-align: center;
 }
 
 h4 {
@@ -86,4 +87,8 @@ h3{
     background-color: #d7bde2;
     color: #333;
     border-radius: 2rem;
+}
+.nav-tabs{
+    border-bottom: 1px solid #843bbb;
+    font-size: 2rem;
 }
