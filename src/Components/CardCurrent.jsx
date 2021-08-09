@@ -24,7 +24,7 @@ const CardCurrent = () => {
             {
                 women.map(ele => (
                     <Row key={ele.id} className="justify-content-center align-items-center">
-                        <Col lg={6} md={12} className="mx-auto" >
+                        <Col lg={6} md={12} className="col-card-current" >
                             <div className="tarjeta">
                                 <div className="tarjeta-header">
                                     <div className="user">
@@ -44,7 +44,9 @@ const CardCurrent = () => {
                             </div>
                         </Col>
                         <Col lg={6} md={12} >
-                            <iframe className="my-5" width="560" height="315" src={ele.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div className="video-reponsive">
+                                <iframe className="my-5" width="560" height="315" src={ele.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </Col>
                     </Row>
                 ))

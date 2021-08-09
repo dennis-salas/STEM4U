@@ -1,62 +1,66 @@
 .cardPublic {
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
-    max-width: 600px;
-    max-height: 300px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 25px;
-    position: relative;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-family: "Lato";
-  }
-  .cardPublic h2 {
-    margin: 0;
-    padding: 0 0.5rem;
-    font-size: 14px;
-    
-  }
-  .cardPublic .title {
-    padding: 1rem;
-    text-align: right;
-    color: rgb(93, 39, 143);
-    font-weight: bold;
-    font-size: 10px;
-  }
-  .cardPublic .desc {
-    padding: 0.5rem 1rem;
-    font-size: 10px;
-  }
-  .cardPublic .actions {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    padding: 0.5rem 1rem;
-  }
-  
-  
-  
-  .card-text {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-  
-  .title-total {
-    padding: 2.5em 1.5em 1.5em 1.5em;
-  }
-  
-  .img-portada {
-    width: 300px;
-    height: 300px;
-  }
-  
-  .portada {
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-position: bottom center;
-    background-size: cover;
-  }
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  max-width: 600px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Lato";
+}
+
+.cardPublic h2 {
+  margin: 0;
+  padding: 0 0.5rem;
+  font-size: 14px;
+
+}
+
+.cardPublic .title {
+  padding: 1rem;
+  text-align: right;
+  color: rgb(93, 39, 143);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.cardPublic .desc {
+  padding: 0.5rem 1rem;
+  font-size: 10px;
+}
+
+.cardPublic .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+.img-portada {
+  width: 300px;
+  height: 300px;
+}
+
+.portada {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-position: bottom center;
+  background-size: cover;
+}

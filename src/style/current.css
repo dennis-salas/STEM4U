@@ -1,3 +1,8 @@
+.col-card-current {
+    display: flex;
+    justify-content: center;
+}
+
 .tarjeta {
     margin: 10px;
     background-color: #fff;
@@ -62,4 +67,21 @@
 
 .user-info small {
     color: #545d7a;
+}
+
+.video-reponsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

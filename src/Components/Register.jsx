@@ -61,12 +61,13 @@ const Register = () => {
                 onChange={handleInputChange}
               />
             </Form.Group>
-            <Button className="btn" type="submit">
+            <Button className="btn w-100" type="submit">
               Enviar
             </Button>
             <Link
-              to="/login">
-              Ya estas registrada? 
+              to="/login"
+            >
+              <p className="link-register"> Ya estas registrada?</p>
             </Link>
           </Form>
         </div>
