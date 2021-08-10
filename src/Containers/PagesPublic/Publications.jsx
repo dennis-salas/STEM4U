@@ -1,22 +1,24 @@
-import { Container, Tab, Tabs } from "react-bootstrap";
+import React, { useState } from 'react'
+import { Container } from "react-bootstrap";
 import CardTecno from "../../Components/CardTecno";
 import CardScience from "../../Components/CardScience";
 
 export const Publications = () => {
+
+  const [categories, setCategories] = useState([])
+
+  const handleClick = (category) => {
+    setCategories(category)
+    console.log(category)
+  }
+
   return (
     <Container className="my-3">
-      <Tabs
-        defaultActiveKey="profile"
-        id="uncontrolled-tab-example"
-        className="mb-3"
-      >
-        <Tab eventKey="tecnology" title="Tecnologia">
-          <CardTecno/>
-        </Tab>
-        <Tab eventKey="science" title="Ciencias">
-          <CardScience />
-        </Tab>
-      </Tabs>
+      <div Class="caja-Tips" onClick={() => handleClick("Tecnología")}>Tecnología</div>
+      <div Class="caja-Tips" onClick={() => handleClick("Ciencias")}>Ciencias</div>
+      {
+        categories === "Tecnología" ? <CardTecno /> : categories === "Ciencias" ? <CardScience /> : console.log("no existe")
+      }
     </Container>
   );
 };

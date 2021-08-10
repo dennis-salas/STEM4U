@@ -3,10 +3,10 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import "../style/cardPublic.css";
 import axios from 'axios'
 
-const CardTecno= () => {
+const CardTecno = () => {
 
   const [tecnology, setTecnology] = useState([]);
-  
+
   useEffect(() => {
     axios.get("https://newsapi.org/v2/top-headlines?country=co&category=technology&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081")
       .then(res => {
@@ -14,11 +14,11 @@ const CardTecno= () => {
         setTecnology(listTecnology);
       })
   }, [])
- 
- 
+
+
   return (
     <Container>
-      { tecnology.map((ele) => (
+      {tecnology.map((ele) => (
         <Card className="cardPublic" key={ele.id}>
           <Row>
             <div className="card-text">
@@ -26,6 +26,7 @@ const CardTecno= () => {
                 <Card.Img
                   variant="top"
                   src={ele.urlToImage}
+                  alt={ele.title}
                   className="portada"
                 />
               </Col>
@@ -35,7 +36,7 @@ const CardTecno= () => {
                 <div className="desc">
                   {ele.description}
                   <hr />
-                  <Card.Link href={ele.url}>Ver mas</Card.Link>
+                  <Card.Link target="_blank" href={ele.url}>Ver mas</Card.Link>
                 </div>
               </div>
             </div>
