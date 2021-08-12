@@ -166,5 +166,64 @@
             "area": "Ciencias",
             "profession": "Doctora en Educación Especial"
         }
+    ],
+    "TrainingCategories" : [
+        {
+            "id": 1,
+            "category": "Ciencias",
+            "img": "https://i.ibb.co/zQ7nbzb/Captura-de-pantalla-64.png",
+            "enlace": "https://www.kaggle.com/learn",
+            "name": "Kaggle"
+        },
+        {
+            "id": 2,
+            "category": "Ciencias",
+            "img": "https://i.ibb.co/KLvgPsr/Captura-de-pantalla-74.png",
+            "enlace": "https://es.khanacademy.org/",
+            "name": "KhanAcademy"
+        },
+        {
+            "id": 3,
+            "category": "Tecnología",
+            "img": "https://i.ibb.co/kB3ddG4/Captura-de-pantalla-66.png",
+            "enlace": "https://www.datacamp.com/courses",
+            "name": "DataCamp"
+        },
+        {
+            "id": 4,
+            "category": "Tecnología",
+            "img": "https://i.ibb.co/gMW4F42/Captura-de-pantalla-75.png",
+            "enlace": "https://es.khanacademy.org/",
+            "name": "Khan Academy"
+        },
+        {
+            "id": 5,
+            "category": "Tecnología",
+            "img": "https://i.ibb.co/MstT8qC/Captura-de-pantalla-77.png",
+            "enlace": "https://capacitateparaelempleo.org/",
+            "name": "Capacitate para el empleo"
+        },
+        {
+            "id": 6,
+            "category":"Ingeniería",
+            "img": "https://i.ibb.co/Wcx6mGK/Captura-de-pantalla-68.png",
+            "enlace": "https://platzi.com/categorias/desarrollo/",
+            "name": "Platzi"
+
+        },
+        {
+            "id": 7,
+            "category": "Ingeniería",
+            "img": "https://i.ibb.co/FxrhxWt/Captura-de-pantalla-76.png",
+            "enlace": "https://es.khanacademy.org/",
+            "name": "KhanAcademy"
+        },
+        {
+            "id": 8,
+            "category":"Matemáticas",
+            "img": "https://i.ibb.co/2ZBQ5xg/Captura-de-pantalla-73.png",
+            "enlace": "https://es.khanacademy.org/",
+            "name": "KhanAcademy"
+        }
     ]
 }
