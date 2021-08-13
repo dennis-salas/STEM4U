@@ -4,17 +4,17 @@ import "../style/cardPublic.css";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 const CardScience = () => {
-    const [science, setScience] = useState([]);
-    useEffect(() => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=co&category=science&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081")
-        .then(res => {
-          const listScience = res.data.articles;
-          setScience(listScience);  
-        })
-    }, [])
-    return (
-        <Container>
-      { science.map((ele) => (
+  const [science, setScience] = useState([]);
+  useEffect(() => {
+    axios.get("https://newsapi.org/v2/top-headlines?country=co&category=science&apiKey=73ad4b9c8b6b41ea83873ed4eeb61081")
+      .then(res => {
+        const listScience = res.data.articles;
+        setScience(listScience);
+      })
+  }, [])
+  return (
+    <Container>
+      {science.map((ele) => (
         <Card className="cardPublic" key={ele.id}>
           <Row>
             <div className="card-text">
@@ -39,7 +39,7 @@ const CardScience = () => {
         </Card>
       ))}
     </Container>
-    )
+  )
 }
 
 export default CardScience
