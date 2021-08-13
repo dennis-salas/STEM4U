@@ -10,7 +10,7 @@ const HV = () => {
                 <Col md={9} sm={6}>
                     <h1 className="my-2">Guía para crear tu hoja de vida</h1>
                     <hr />
-                    <p className="text-parrafo">Se dice que en promedio los reclutadores solo se detienen a ver una hoja de vida durante 7seg, con base a esto el 80% de las hojas de vida son descartadas porque contienen falta de ortografía o simplemente expone claramente las competencias que invitan a leer la hoja detenidamente, por ello es importante que elebores una hoja de vida con una estructura orientada hacia la vacante que te estas postulando, seleccionando las habiladades que te interesa destacar.</p>
+                    <p className="text-parrafo">Se dice que en promedio los reclutadores solo se detienen a ver una hoja de vida durante 7seg, con base a esto el 80% de las hojas de vida son descartadas porque contienen falta de ortografía o simplemente expone claramente las competencias que invitan a leer la hoja detenidamente, por ello es importante que elabores una hoja de vida con una estructura orientada hacia la vacante que te estas postulando, seleccionando las habilidades que te interesa destacar.</p>
                     <h5 className="subtitleHV">Para lograr ese primer objetivo responde las siguientes preguntas</h5>
                     <ul>
                         <li>¿Cual es la vacante que te estas postulando?</li>
@@ -21,8 +21,8 @@ const HV = () => {
             </Row>
             <Row>
                 <Col md={12} sm={12}>
-                    <p className="text-parrafo">Respondiendo la primera pregunta tendras claros los objetivos que persigues con la empresa, y sabras de que forma expresar tus competencias.</p>
-                    <p className="text-parrafo">Orienta la segunda respuesta enfatizando los conocimientos o habilidades especifícas que se requieren para realizar las tareas relacionadas a la vacante que estas aplicando de esta manera tendras mayor posibilidad de interesar al reclutador.</p>
+                    <p className="text-parrafo">Respondiendo la primera pregunta téndras claros los objetivos que persigues con la empresa, y sábras de que forma expresar tus competencias.</p>
+                    <p className="text-parrafo">Orienta la segunda respuesta enfatizando los conocimientos o habilidades específicas que se requieren para realizar las tareas relacionadas a la vacante que estas aplicando de esta manera téndras mayor posibilidad de interesar al reclutador.</p>
                 </Col>
             </Row>
             <Row>
@@ -30,11 +30,11 @@ const HV = () => {
                 <hr />
                 <Col md={6} sm={12}>
                     <h3>Hoja de vida Cronológica</h3>
-                    <p className="text-parrafo">En este tipo de hoja de vida se ordena la información segun su fecha desde la experiencia profesional mas reciente a la más antigua, sirve para demostrar tu evolución profesional, las empresas en las que has trabajado y el tiempo que permaneciste en ellas.</p>
+                    <p className="text-parrafo">En este tipo de hoja de vida se ordena la información según su fecha desde la experiencia profesional más reciente a la más antigua, sirve para demostrar tu evolución profesional, las empresas en las que has trabajado y el tiempo que permaneciste en ellas.</p>
                 </Col>
                 <Col md={6} sm={12}>
                     <h3>Hoja de vida Funcional</h3>
-                    <p className="text-parrafo">En esta tipo de hoja agrupa la información por temas debes resaltar tus competencias, habilidades y logros, el incoveniente con este tipo de hoja es que oculta el tiempo en cada trabajo y no manifiesta las empresa en las que trabajaste.</p>
+                    <p className="text-parrafo">En este tipo de hoja agrupa la información por temas debes resaltar tus competencias, habilidades y logros, el inconveniente con este tipo de hoja es que oculta el tiempo en cada trabajo y no manifiesta las empresas en las que trabajaste.</p>
                 </Col>
             </Row>
             <Row>
@@ -46,7 +46,7 @@ const HV = () => {
                     <ul>
                         <li>Foto</li>
                         <li>Nombre Completo</li>
-                        <li>Telefono de contacto (mínimo dos)</li>
+                        <li>Teléfono de contacto (mínimo dos)</li>
                         <li>Correo electrónico</li>
                         <li>Ciudad</li>
                         <li>Carrera</li>
@@ -55,7 +55,7 @@ const HV = () => {
                 </Col>
                 <Col md={6} sm={12}>
                     <h3>Experiencia laboral</h3>
-                    <p className="text-parrafo">En esta sección menciona los puestos que has desempeñado y los lugares donde has estado. utiliza la formula: Meta + Acción ejeutada = Resultado; con ella daras a conocer tus habilidades e información relevante de manera concreta.</p>
+                    <p className="text-parrafo">En esta sección menciona los puestos que has desempeñado y los lugares donde has estado. Utiliza la formula: Meta + Acción ejecutada = Resultado; con ella darás a conocer tus habilidades e información relevante de manera concreta.</p>
                     <ul>
                         <li>Cargo desempeñado</li>
                         <li>Nombre de la empresa</li>
@@ -66,8 +66,8 @@ const HV = () => {
             </Row>
             <Row>
                 <Col md={6} sm={12}>
-                    <h3>Formación academica</h3>
-                    <p className="text-parrafo">Escribe solo el titulo de estudios maximo que tengas</p>
+                    <h3>Formación académica</h3>
+                    <p className="text-parrafo">Escribe solo el titulo de estudios máximo que tengas</p>
                     <ul>
                         <li>Nombre curso/diplomado/taller</li>
                         <li>Institución académica</li>
@@ -77,7 +77,7 @@ const HV = () => {
                 </Col>
                 <Col md={6} sm={12}>
                     <h3>Información complementaria</h3>
-                    <p className="text-parrafo">Coloca los idiomas y el porcentaje que tienes de dominio, asi como el manejo que tienes de informática entre otros.</p>
+                    <p className="text-parrafo">Coloca los idiomas y el porcentaje que tienes de dominio, así como el manejo que tienes de informática entre otros.</p>
                     <ul>
                         <li>Competencias personales</li>
                         <li>Manejo de idiomas</li>

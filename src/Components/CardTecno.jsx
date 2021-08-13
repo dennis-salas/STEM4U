@@ -18,6 +18,7 @@ const CardTecno = () => {
 
   return (
     <Container>
+      <h1>Noticias en tecnología</h1>
       {tecnology.map((ele) => (
         <Card className="cardPublic" key={ele.id}>
           <Row>

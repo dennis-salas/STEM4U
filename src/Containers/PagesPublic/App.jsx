@@ -8,7 +8,7 @@ const App = () => {
             <Slider />
             <Container className="my-2">
                 <h3 className="text-center">BIENVENIDA A STEM4U</h3>
-                <p className="text-center"><em>"Somos un medio de centralización y divulgación de información de las areas STEM."</em></p>
+                <p className="text-center"><em>"Somos un medio de centralización y divulgación de información de las áreas STEM."</em></p>
                 <hr />
             </Container>
             <Row className="justify-content-center align-items-center">
@@ -20,10 +20,10 @@ const App = () => {
                             </p>
                         </Container>
                         <Container>
-                            <li className="text-parrafo">Mujer si estas interesada en pertenecer, actualizarte o conocer más sobre las areas de STEM.</li>
-                            <li className="text-parrafo">Aqui vas a poder explorar, informarte, aprender sobre lo nuevo en Ciencia, Tecnología, Matemática e Ingenieria y el impacto que las Mujeres tienen en estas áreas.</li>
-                            <li className="text-parrafo">Todo lo que quieres saber sobre Ciencia, Tecnologia, Ingenieria y Matemáticas que no te habias atrevido a preguntar está aquí, dirigido a ti, de la forma en la que lo necesitas.</li>
-                            <li className="text-parrafo">Entra, Registrate, Explora, Informate, Aprende y has parte de la cumunidad global de mujeres en las áreas de STEM.</li>
+                            <li className="text-parrafo">Mujer si estas interesada en pertenecer, actualizarte o conocer más sobre las áreas de STEM.</li>
+                            <li className="text-parrafo">Aquí vas a poder explorar, informarte, aprender sobre lo nuevo en Ciencia, Tecnología, Matemáticas e Ingeniería y el impacto que las Mujeres tienen en estas áreas.</li>
+                            <li className="text-parrafo">Todo lo que quieres saber sobre Ciencia, Tecnología, Ingeniería y Matemáticas que no te habías atrevido a preguntar está aquí, dirigido a ti, de la forma en la que lo necesitas.</li>
+                            <li className="text-parrafo">Entra, registrate, explora, informate, aprende y has parte de la comunidad global de mujeres en las áreas de STEM.</li>
                         </Container>
                     </Container>
                 </Col >

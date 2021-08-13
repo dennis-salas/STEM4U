@@ -17,7 +17,7 @@ export const Publications = () => {
       <div Class="caja-Tips" onClick={() => handleClick("Tecnología")}>Tecnología</div>
       <div Class="caja-Tips" onClick={() => handleClick("Ciencias")}>Ciencias</div>
       {
-        categories === "Tecnología" ? <CardTecno /> : categories === "Ciencias" ? <CardScience /> : console.log("no existe")
+        categories === "Tecnología" ? <CardTecno /> : <CardScience />
       }
     </Container>
   );

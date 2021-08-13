@@ -25,7 +25,7 @@ const Tips = () => {
                 <div Class="caja-Tips" onClick={() => handleClick("Marca Personal")}>Marca Personal</div>
                 <div Class="caja-Tips" onClick={() => handleClick("Investigación Empresarial")}>Investigación Empresarial</div>
                 {
-                    category === "Investigación Empresarial" ? <Company /> : category === "Marca Personal" ? <Brand /> : category === "LinkedIn" ? <LinkedIn /> : category === "Entrevista de trabajo" ? <WorkIterview /> : category === "Hoja de vida" ? <HV /> : console.log("no existe")
+                    category === "Investigación Empresarial" ? <Company /> : category === "Marca Personal" ? <Brand /> : category === "LinkedIn" ? <LinkedIn /> : category === "Entrevista de trabajo" ? <WorkIterview /> : <HV />
                 }
 
             </Container>

@@ -14,6 +14,7 @@ const CardScience = () => {
   }, [])
   return (
     <Container>
+      <h1>Noticias en ciencias</h1>
       {science.map((ele) => (
         <Card className="cardPublic" key={ele.id}>
           <Row>

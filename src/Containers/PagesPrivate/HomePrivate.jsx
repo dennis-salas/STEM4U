@@ -18,7 +18,7 @@ const HomePrivate = () => {
                 </div>
                 <div className=" container about__text">
                     <p className="about__text--content">
-                        Te damos la Bienvienida a nuestro un medio de centralización y divulgación de información de las areas STEM, aqui encontraras esas herramientas necesarias para formarte en cualquier area stem y los mejores tips de empleabilidad.
+                        Te damos la bienvienida a nuestro un medio de centralización y divulgación de información de las áreas STEM, aqui encontraras esas herramientas necesarias para formarte en cualquier área stem y los mejores tips de empleabilidad.
                     </p>
                 </div>
             </div>

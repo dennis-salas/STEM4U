@@ -12,7 +12,7 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Mujeres en la Matemática</h3>
+                        <h3>Mujeres en Matemáticas</h3>
                         <p className="text-slider">He hecho muchas aventuras, desde rafting en aguas bravas hasta bungee jumping. Pero creo que lo más intrépido fue ser sede de los Premios Emmy. Fue abrumador, y definitivamente tuve que dejar el miedo en la puerta. </p>
                         <h3>Emmy Noether</h3>
                     </Carousel.Caption>
@@ -26,7 +26,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption>
                         <h3>Mujeres en Ciencias</h3>
-                        <p className="text-slider">Llegará un momento en que la sociedad dejará atrás los estereotipos sobre nosotras</p>
+                        <p className="text-slider">Llegará un momento en que la sociedad dejará atrás los estereotipos sobre nosotras.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,8 +47,8 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Mujeres en Ingenieria </h3>
-                        <p className="text-slider">Nunca tendré miedo de exponer mis ideas, por más disparatadas que suenen</p>
+                        <h3>Mujeres en Ingeniería </h3>
+                        <p className="text-slider">Nunca tendré miedo de exponer mis ideas, por más disparatadas que suenen.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

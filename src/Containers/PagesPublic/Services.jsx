@@ -13,7 +13,7 @@ export const Services = () => {
             </Container>
             <Container>
               <p className="text-parrafo">
-                Aqui puedes encontrar un espacio donde puedes aprender sobre tus
+                Aquí puedes encontrar un espacio donde puedes aprender sobre tus
                 emociones y como muchas otras mujeres, han pasado por lo que
                 puedes estar pasando ahora mismo.
               </p>
@@ -35,8 +35,8 @@ export const Services = () => {
             </Container>
             <Container>
               <p className="text-parrafo">
-                Aqui podrás potenciar todas las habilidades tecnicas y
-                esenciales para crear un perfil mas competitivo para la vida y
+                Aquí podrás potenciar todas las habilidades técnicas y
+                esenciales para crear un perfil más competitivo para la vida y
                 el mercado laboral bajo lineamientos de autoaprendizaje y
                 experiencia actuales.
               </p>
@@ -53,14 +53,14 @@ export const Services = () => {
         <Col md={6} sm={12}>
           <Container className="my-2">
             <Container>
-              <h3>Puntos Clave</h3>
+              <h3>Puntos Claves</h3>
               <hr />
             </Container>
             <Container>
               <p className="text-parrafo">
-                En esta sección encontraras los mejores consejos para que domines las entrevistas de trabajo ,
-                también los sitios web más usados para postularle a ofertas y lo mas importarte como elaborar tu
-                hoja de vida moderna, que esperas registrate y descubre aqui las recomendaciones mas actuales para obtener tu trabajo deseado.
+                En esta sección encontraras los mejores consejos para que domines las entrevistas de trabajo,
+                también los sitios web más usados para postularle a ofertas y lo más importarte como elaborar tu
+                hoja de vida moderna, que esperas, registrate y descubre aquí las recomendaciones más actuales para obtener tu trabajo deseado.
               </p>
             </Container>
           </Container>
