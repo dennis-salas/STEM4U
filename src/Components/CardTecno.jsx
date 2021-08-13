@@ -33,7 +33,7 @@ const CardTecno = () => {
               </Col>
               <div className="title-total">
                 <div className="title">{ele.author}</div>
-                <h2>{ele.title}</h2>
+                <h1>{ele.title}</h1>
                 <div className="desc">
                   {ele.description}
                   <hr />
