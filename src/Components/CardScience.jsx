@@ -32,7 +32,7 @@ const CardScience = () => {
                 <div className="desc">
                   {ele.description}
                   <hr />
-                  <Card.Link target="_blank" href={ele.url}>Ver mas</Card.Link>
+                  <Card.Link href={ele.url} target="_blank">Ver mas</Card.Link>
                 </div>
               </div>
             </div>
