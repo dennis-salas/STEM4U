@@ -107,7 +107,7 @@ h3 {
 }
 
 .carousel {
-    font-family: "Lato";
+    font-family: "Nunito";
     font-size: 20px;
     font-weight: bold;
 }
@@ -120,4 +120,8 @@ h3 {
 .nav-tabs{
     border-bottom: 1px solid #843bbb;
     font-size: 2rem;
+}
+
+a{
+    margin: 1rem;
 }
