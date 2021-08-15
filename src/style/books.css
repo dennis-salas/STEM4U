@@ -1,21 +1,22 @@
-.carousel {
-    font-family: "Nunito";
-    font-size: 20px;
-    font-weight: bold;
-    align-content: center;
-    justify-content: center;
-
+.carousel-control-prev, .carousel-control-next {
+    color: rgb(93, 39, 143) ;
+    background-color: #d7bde2;
 }
 
 .carousel-caption {
     background-color: #d7bde2;
     color: #333;
+    font-size: 15px;
     border-radius: 1rem;
-    text-align: justify;
+    width: 400px;
+    height: 250px;
     padding: 1rem 1rem 1rem 1rem;
 }
-.carousel .images{
-    align-content: center;
-    align-items: center;
-    text-align: center;
+
+.carousel-caption .title{
+    font-size: 20px;
+}
+.carousel .img-slide{
+    width: 350px;
+    height: 400px;
 }

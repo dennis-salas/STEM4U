@@ -70,6 +70,15 @@ const Interest = () => {
             ¿Qué dicen tus relaciones de ti? - Día 334{" "}
           </a>
         </li>
+        <li>
+          Descubre tus reglas Una pausa para reflexionar en medio de la presión
+          por ser relevantes y la culpa por no lograrlo satisfactoriamente.
+          Escríbeme a descubretusreglas@gmail.com para darte entrada al grupo de
+          Telegram y compartir nuestras experiencias e inquietudes.
+          <a href="https://www.deezer.com/es/show/1906652" target="_blank">
+          Descubre tus reglas
+          </a>
+        </li>
       </Container>
     </div>
   );
