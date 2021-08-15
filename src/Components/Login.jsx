@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button, Container, Image, Col } from "react-bootstrap";
+import { Form, Button, Container, Image } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
 import { login, loginGoogle } from '../action/actions'

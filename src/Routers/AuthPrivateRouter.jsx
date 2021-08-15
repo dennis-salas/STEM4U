@@ -33,7 +33,6 @@ export const AuthPrivateRouter = () => {
                             path="/EmotionalAssistance"
                             component={EmotionalAssistance}
                         />
-
                         <Redirect to="/Home" />
                     </Switch>
                 </BrowserRouter>

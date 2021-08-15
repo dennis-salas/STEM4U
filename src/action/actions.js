@@ -56,7 +56,7 @@ export const registroUsuario = (email, password, nombre, apellido) => {
   }
 }
 
-export const registro = (nombre, apellido, email, password) => {
+export const registro = ( email, password, nombre, apellido) => {
   return {
     type: types.usuario,
     payload: {
