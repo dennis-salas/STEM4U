@@ -1,7 +1,29 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { useForm } from '../hook/useForm';
+import { AddComment } from "../action/actionForum";
 
 
-export const Forum = () => {
+export const Forum = () => { 
+   const dispatch = useDispatch()
+
+   
+  const [formValues, handleInputChange, reset] = useForm({
+       text: ""
+       
+  });
+
+  const {text} = formValues;
+
+ 
+  const handleNewComment = (e) => {
+    e.preventDefault();
+      dispatch(AddComment(text))
+      reset();
+     
+ }
+  
+
   return (
     <div>
      <div className="container mt-5 mb-5">
@@ -18,34 +40,17 @@ export const Forum = () => {
                 </div>
             </div>
             <div className="coment-bottom bg-white p-2 px-4">
-                <div className="d-flex flex-row add-comment-section mt-4 mb-4"><img className="img-fluid img-responsive rounded-circle mr-2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="38"></img><input type="text" className="form-control mr-3" placeholder="Add comment" /><button className="btn btn-primary" type="button">Comment</button></div>
-                <div className="commented-section mt-2">
+                <div className="d-flex flex-row add-comment-section mt-4 mb-4" onSubmit={handleNewComment}><img className="img-fluid img-responsive rounded-circle mr-2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="38"></img>
+                
+                <input type="text" className="form-control mr-3" placeholder="Agregar comentario" name="text" onChange={handleInputChange} value={text}/>
+                <button className="btn btn-primary" type="button">Comentar</button>
+                </div>
+
+               <div className="commented-section mt-2">
                     <div className="d-flex flex-row align-items-center commented-user">
                         <h5 className="mr-2">Corey oates</h5><span className="dot mb-1"></span><span className="mb-1 ml-2">4 hours ago</span>
                     </div>
                     <div className="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></div>
-                    <div className="reply-section">
-                        <div className="d-flex flex-row align-items-center voting-icons">
-                            <h6 className="ml-2 mt-1">Reply</h6>
-                        </div>
-                    </div>
-                </div>
-                <div className="commented-section mt-2">
-                    <div className="d-flex flex-row align-items-center commented-user">
-                        <h5 className="mr-2">Samoya Johns</h5><span className="dot mb-1"></span><span className="mb-1 ml-2">5 hours ago</span>
-                    </div>
-                    <div className="comment-text-sm"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</span></div>
-                    <div className="reply-section">
-                        <div className="d-flex flex-row align-items-center voting-icons">
-                            <h6 className="ml-2 mt-1">Reply</h6>
-                        </div>
-                    </div>
-                </div>
-                <div className="commented-section mt-2">
-                    <div className="d-flex flex-row align-items-center commented-user">
-                        <h5 className="mr-2">Makhaya andrew</h5><span className="dot mb-1"></span><span className="mb-1 ml-2">10 hours ago</span>
-                    </div>
-                    <div className="comment-text-sm"><span>Nunc sed id semper risus in hendrerit gravida rutrum. Non odio euismod lacinia at quis risus sed. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Enim facilisis gravida neque convallis a. In mollis nunc sed id. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Ultrices mi tempus imperdiet nulla malesuada pellentesque.</span></div>
                     <div className="reply-section">
                         <div className="d-flex flex-row align-items-center voting-icons">
                             <h6 className="ml-2 mt-1">Reply</h6>

@@ -1,6 +1,7 @@
-.carousel-control-prev, .carousel-control-next {
-    color: rgb(93, 39, 143) ;
-    background-color: #d7bde2;
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #d7bde2 ;
+
 }
 
 .carousel-caption {
@@ -8,7 +9,7 @@
     color: #333;
     font-size: 15px;
     border-radius: 1rem;
-    width: 400px;
+    width: 450px;
     height: 250px;
     padding: 1rem 1rem 1rem 1rem;
 }

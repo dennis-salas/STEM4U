@@ -76,7 +76,15 @@ const Interest = () => {
           Escríbeme a descubretusreglas@gmail.com para darte entrada al grupo de
           Telegram y compartir nuestras experiencias e inquietudes.
           <a href="https://www.deezer.com/es/show/1906652" target="_blank">
-          Descubre tus reglas
+            Descubre tus reglas
+          </a>
+        </li>
+        <li>
+          ¿Por qué nos hemos dejado encasillar en bandos? ¿Cuántas reglas te has
+          dejado imponer por la industria motivación? ¿Toda esa información nos
+          hace mejores personas?
+          <a href="https://www.deezer.com/es/show/1906652" target="_blank">
+            Descubre tus reglas
           </a>
         </li>
       </Container>
