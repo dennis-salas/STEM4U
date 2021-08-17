@@ -3,12 +3,12 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBbh1393sxKxGBgEnVHD-5-zcskqvieHks",
-  authDomain: "examen-abc.firebaseapp.com",
-  projectId: "examen-abc",
-  storageBucket: "examen-abc.appspot.com",
-  messagingSenderId: "114206980725",
-  appId: "1:114206980725:web:1957b9a37ccfee0303d63c"
+    apiKey: "AIzaSyBQbE5lYX6CrjeNhd0S9SOgdQNPElTDZ5o",
+    authDomain: "stem4u-ea462.firebaseapp.com",
+    projectId: "stem4u-ea462",
+    storageBucket: "stem4u-ea462.appspot.com",
+    messagingSenderId: "457742202456",
+    appId: "1:457742202456:web:da6cc01bce4e1f78defc2d"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
