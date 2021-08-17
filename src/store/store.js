@@ -11,7 +11,7 @@ const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOO
 const reducers = combineReducers({
     login: loginReducer,
     usuario: registroReducer,
-    uiError: uiReducer.apply,
+    uiError: uiReducer,
     foro:  forumReducer
 })
 //para acciones asincronas 
