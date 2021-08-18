@@ -42,16 +42,14 @@ export const Forum = () => {
                         <div className="coment-bottom bg-white p-2 px-4">
                             <div className="d-flex flex-row add-comment-section mt-4 mb-4">
                                 <img className="img-fluid img-responsive rounded-circle mr-2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="38" alt="imgen" />
-                                <Form onSubmit={handleNewComment}>
-                                    <Form.Control
-                                        type="text"
-                                        name="text"
-                                        placeholder="Agregar Comentario"
-                                        value={text}
-                                        onChange={handleInputChange}
-                                        required />
-                                    <button className="btn btn-primary" type="button">Comentar</button>
-                                </Form>
+                                <Form.Control
+                                    type="text"
+                                    name="text"
+                                    placeholder="Agregar Comentario"
+                                    value={text}
+                                    onChange={handleInputChange}
+                                    required />
+                                <button className="btn btn-primary" type="button" onClick={handleNewComment}>Comentar</button>
                             </div>
 
                             <div className="commented-section mt-2">
