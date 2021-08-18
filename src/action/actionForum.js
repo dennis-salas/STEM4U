@@ -5,10 +5,10 @@ import { db } from '../firebase/firebase-config'
 
 export const AddComment = (comment) => {
     return async (dispatch, getSate) => {
+
         const uid = getSate().login.uid
+
         const newCommet = {
-            user: comment.id,
-            name: comment.name,
             text: comment.text,
         }
 
