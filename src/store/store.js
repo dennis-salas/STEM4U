@@ -10,7 +10,7 @@ const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOO
 const reducers = combineReducers({
     login: loginReducer,
     usuario: registroReducer,
-    foro: forumReducer
+    comment: forumReducer
 })
 //para acciones asincronas 
 export const store = createStore(reducers,

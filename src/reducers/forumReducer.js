@@ -1,4 +1,4 @@
-import {types} from '../type/types';
+import { types } from '../type/types';
 
 
 const initialState = {
@@ -7,12 +7,11 @@ const initialState = {
 
 export const forumReducer = (state = initialState, action) => {
     switch (action.type) {
-        case types.addCommet:
+        case types.addComment:
             return {
-                ...state, 
-            comment: [action.payload, ...state.comment ]
+                ...state,
+                comment: [action.payload, ...state.comment]
             }
-
         default:
             return state;
     }
