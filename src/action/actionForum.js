@@ -1,6 +1,6 @@
-import {types} from '../type/types'
-import {db} from '../firebase/firebase-config'
-import Swal from 'sweetalert2'
+import { types } from '../type/types'
+import { db } from '../firebase/firebase-config'
+
 
 
 export const AddComment = (comment) => {
@@ -9,11 +9,11 @@ export const AddComment = (comment) => {
         const newCommet = {
             user: comment.id,
             name: comment.name,
-            text: comment.text,    
+            text: comment.text,
         }
 
         const docRef = await db.collection("Foro").add(newCommet);
-        dispatch(AddNewComment(docRef.uid,  newCommet))
+        dispatch(AddNewComment(docRef.uid, newCommet))
     }
 
 }
