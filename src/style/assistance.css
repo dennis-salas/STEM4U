@@ -9,3 +9,13 @@
    margin-top: 20px;
    margin-bottom: 20px;
 }
+.btn-comment{
+    margin-top: 20px;
+    background: #43055c;
+    height: 40px;
+    align-content: center;
+    margin-left: 1rem;
+}
+.img-fluid{
+    margin-right: 1rem;
+}
