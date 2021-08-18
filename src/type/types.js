@@ -9,6 +9,6 @@ export const types = {
     uiFinishLoading: '[UI] Finish loading',
 
     addComment: 'addComment',
-    deleteComment:'deleteComment'
+    deleteComment: 'deleteComment'
 
 }

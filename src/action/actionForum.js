@@ -6,14 +6,15 @@ import { db } from '../firebase/firebase-config'
 export const AddComment = (comment) => {
     return async (dispatch, getSate) => {
 
-        const uid = getSate().login.uid
+
+        const id = getSate().login.uid
 
         const newCommet = {
             text: comment.text,
         }
 
-        const docRef = await db.collection("Foro").add(newCommet);
-        dispatch(AddNewComment(docRef.uid, newCommet))
+        const docRef = await db.collection('Foro').add(newCommet);
+        dispatch(AddNewComment(docRef.id, newCommet))
     }
 
 }
