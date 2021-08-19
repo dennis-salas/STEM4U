@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Button, Container, Image } from "react-bootstrap";
 import { useForm } from "../hook/useForm";
 import "../style/loginS.css";
-import { login, loginGoogle } from '../action/actions'
+import { loginEmailPassword, loginGoogle } from '../action/actions'
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -23,10 +23,9 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    dispatch(login(email, password))
+    dispatch(loginEmailPassword(email, password))
     console.log(email, password);
   }
-
 
   const handleGoogleLogin = () => {
     dispatch(loginGoogle());
@@ -36,7 +35,7 @@ const Login = () => {
     <Container className="mt-5 mb-5">
       <Container className="mt-4 mb-4">
         <div className="login-root">
-          <Form onSubmit={handleLogin} className="form-login">
+          <Form className="form-login" onSubmit={handleLogin}>
             <Container className="row justify-content-center">
               <Image
                 src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png"

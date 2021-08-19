@@ -19,9 +19,10 @@ export const loginGoogle = () => {
 
     firebase.auth().signInWithPopup(google)
       .then(({ user }) => {
-        console.log(user);
+        console.log(user.photoURL);
+        const perfil = (user.photoURL);
         dispatch(
-          login(user.uid, user.displayName)
+          login(user.uid, user.displayName, perfil)
         )
       })
 
@@ -73,7 +74,7 @@ export const loginEmailPassword = (email, password) => {
     firebase.auth().signInWithEmailAndPassword(email, password)
       .then(({ user }) => {
         dispatch(startLoading)
-        dispatch(login(user.uid, user.displayName))
+        dispatch(login(user.uid, user.displayName));
       })
       .catch(e => {
         console.log(e)
