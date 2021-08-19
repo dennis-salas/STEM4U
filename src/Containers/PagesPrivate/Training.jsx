@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Header from '../../Components/Header'
 import '../../style/services.css'
 import axios from "axios";
-import { Card, Form, ListGroup, Row, Col } from "react-bootstrap";
+import { Card, Form, Row, Col } from "react-bootstrap";
 import '../../style/training.css'
 
 

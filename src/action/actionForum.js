@@ -7,10 +7,11 @@ export const AddComment = (comment) => {
     return async (dispatch, getSate) => {
 
 
-        const id = getSate().login.uid
+        const name = getSate().login.name
 
         const newCommet = {
             text: comment.text,
+            name: name
         }
 
         const docRef = await db.collection('Foro').add(newCommet);

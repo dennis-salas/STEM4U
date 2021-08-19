@@ -25,16 +25,17 @@ const Books = () => {
           <Carousel.Caption>
             <h1 className="title">El poder de confiar en ti</h1>
             <p>
-               El poder de confiar en ti te invita
+              El poder de confiar en ti te invita
               a convertirte en tu propio coach y a ser tu propio guía con pautas
               y ejercicios para que aprendas a sentirte bien y a hacer realidad
-              tus verdaderos deseos y aspiraciones. 
+              tus verdaderos deseos y aspiraciones.
             </p>
             <a
               href="https://drive.google.com/file/d/1Pl9F_Bkeo0tVNi2lh8LK28JlnwYovpoU/view"
               className="btn btn-primary"
               download="habitos"
               target="_blank"
+              rel="noopener"
             >
               descargar
             </a>
@@ -90,7 +91,7 @@ const Books = () => {
             >
               descargar
             </a>
-           
+
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -104,9 +105,9 @@ const Books = () => {
           <Carousel.Caption>
             <h1 className="title">El espiritu creativo</h1>
             <p>
-            El espíritu creativo es algo más que una iluminación ocasional o un suceso caprichoso. 
-            Cuando se despierta, el espíritu creativo anima un estilo de ser: una vida llena del deseo de innovar, 
-            de explorar nuevas formas de acometer tareas y de convertir sueños en realidad.
+              El espíritu creativo es algo más que una iluminación ocasional o un suceso caprichoso.
+              Cuando se despierta, el espíritu creativo anima un estilo de ser: una vida llena del deseo de innovar,
+              de explorar nuevas formas de acometer tareas y de convertir sueños en realidad.
             </p>
             <a
               href="https://drive.google.com/file/d/15ppDdE6US8qKD2Xgd2l5wTRDxSiRr855/view?usp=sharing"
@@ -117,7 +118,7 @@ const Books = () => {
               descargar
             </a>
           </Carousel.Caption>
-        </Carousel.Item> 
+        </Carousel.Item>
       </Carousel>
     </Container>
   );
