@@ -32,9 +32,9 @@ const EmotionalAssistance = () => {
           <img src="https://res.cloudinary.com/academia/image/upload/v1628697851/foro_oobi6q.jpg" className="img-foro" alt="foro"/>
       </Container>
       <Container>
-                <div Class="caja-Tips" onClick={() => handleClick("Motivacion")}>Motivación</div>
-                <div Class="caja-Tips" onClick={() => handleClick("Libros")}> Libros Recomendados</div>
-                <div Class="caja-Tips" onClick={() => handleClick("Enlaces")}> Enlaces de interes</div>
+                <div className="caja-Tips" onClick={() => handleClick("Motivacion")}>Motivación</div>
+                <div className="caja-Tips" onClick={() => handleClick("Libros")}> Libros Recomendados</div>
+                <div className="caja-Tips" onClick={() => handleClick("Enlaces")}> Enlaces de interes</div>
                 {
                      categoryE === "Enlaces" ? <Interest /> : categoryE === "Libros" ? <Books /> : categoryE === "Motivacion" ? <Motivation /> : categoryE === "Foro" ? <Forum /> : console.log("no existe")
                 }

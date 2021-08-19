@@ -27,7 +27,7 @@ const App = () => {
                         </Container>
                     </Container>
                 </Col >
-                <Col lg={6} md={12} className="">
+                <Col lg={6} md={12}>
                     <Image src="https://i.ibb.co/tPzrFnD/stem-1.jpg" className="mx-auto d-block img-fluid img-app" />
                 </Col>
             </Row >
