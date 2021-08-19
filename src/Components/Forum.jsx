@@ -1,16 +1,25 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useForm } from '../hook/useForm';
 import { AddComment } from "../action/actionForum";
 import { Form } from 'react-bootstrap'
 import { firebase } from '../firebase/firebase-config'
+import AppEmoji from '../Components/AppEmoji'
+import Picker from 'emoji-picker-react';
 
 
 export const Forum = () => {
 
     const dispatch = useDispatch();
 
-    const [commentForo, setCommentForo] = useState([])
+    const [commentForo, setCommentForo] = useState([]);
+    const [chosenEmoji, setChosenEmoji] = useState(null);
+
+    const { name } = useSelector(state => state.login)
+
+    const onEmojiClick = (event, emojiObject) => {
+        setChosenEmoji(emojiObject);
+    };;
 
     useEffect(() => {
 
@@ -30,7 +39,7 @@ export const Forum = () => {
 
 
     const [formValues, handleInputChange, reset] = useForm({
-        text: ''
+        text: '',
     });
 
     const { text } = formValues;
@@ -38,6 +47,7 @@ export const Forum = () => {
     const handleNewComment = (e) => {
         e.preventDefault();
         dispatch(AddComment(formValues));
+        console.log(formValues)
         reset();
     }
 
@@ -60,10 +70,8 @@ export const Forum = () => {
                     <div className="d-flex flex-column col-md-8">
                         <div className="d-flex flex-row align-items-center text-left comment-top p-2 bg-white border-bottom px-4">
                             <div className="profile-image">
-                                <img className="rounded-circle" src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" width="70">
-
-                                </img>
-                                </div>
+                                <img className="rounded-circle" src="https://i.ibb.co/9nvRxgM/Logo-proyecto.png" width="70" alt="foto" />
+                            </div>
                             <div className="d-flex flex-column-reverse flex-grow-0 align-items-center votings ml-1"></div>
                             <div className="d-flex flex-column ml-4">
                                 <div className="d-flex flex-row post-title">
@@ -74,11 +82,23 @@ export const Forum = () => {
                         </div>
                         {
                             commentForo.map(ele => (
-
-                                <div className="d-flex flex-row add-comment-section mt-4 mb-4">
-                                    <img className="img-fluid img-responsive rounded-circle mr-2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="38" alt="imgen" />
-                                    <div className="comment-text-sm"><span>{ele.text}</span></div>
-                                    <button className="btn btn-primary" type="button" onClick={() => handleDelete(ele.id)}>Eliminar</button>
+                                <div className="my-2 p-4" key={ele.id}>
+                                    <div className="d-flex flex-row add-comment-section mt-2 mb-2">
+                                        <img className="img-fluid img-responsive rounded-circle mr-2" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" width="38" alt="imgen" />
+                                        <h4>{ele.name}</h4>
+                                    </div>
+                                    <div className="d-flex flex-row add-comment-section mt-4 mb-4">
+                                        <div className="comment-text-sm text-parrafo"><span>{ele.text}</span></div>
+                                    </div>
+                                    {
+                                        name === ele.name ?
+                                            <div>
+                                                <button className="btn btn-primary" type="button" onClick={() => handleDelete(ele.id)}>Eliminar</button>
+                                                <button className="btn btn-primary mx-2" type="button" onClick={() => handleDelete(ele.id)}>Editar</button>
+                                            </div>
+                                            : console.log("no puede editar")
+                                    }
+                                    <hr />
                                 </div>
                             ))
                         }
@@ -92,9 +112,11 @@ export const Forum = () => {
                                     value={text}
                                     onChange={handleInputChange}
                                     required />
-                                <button className="btn btn-primary btn-comment"  type="button" onClick={handleNewComment}>Comentar</button>
+                                <button className="btn btn-primary btn-comment" type="button" onClick={handleNewComment}>Comentar</button>
                             </div>
+
                         </div>
+                        {/* <Picker onEmojiClick={onEmojiClick} pickerStyle={{ width: '100%' }} /> */}
                     </div>
                 </div>
             </div>

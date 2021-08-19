@@ -10,7 +10,7 @@ const HomePrivate = () => {
             <Header />
             <div className="about">
                 <div className="about__title">
-                    <div className="links">
+                    <div className="links py-4">
                         <Link className="about__title--text" to="/Tips">Puntos Claves | </Link>
                         <Link className="about__title--text" to="/Training">Capacitación | </Link>
                         <Link className="about__title--text" to="/EmotionalAssistance"> Asistencia Emocional</Link>

@@ -37,7 +37,7 @@ const CardTecno = () => {
                 <div className="desc">
                   {ele.description}
                   <hr />
-                  <Card.Link href={ele.url} target="_blank">Ver mas</Card.Link>
+                  <Card.Link href={ele.url} rel="noopener" target="_blank">Ver mas</Card.Link>
                 </div>
               </div>
             </div>
